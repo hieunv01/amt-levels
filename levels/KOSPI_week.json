@@ -4,7 +4,7 @@
   "by": "week",
   "source": "yfinance:^KS11",
   "kind": "volume",
-  "generated_utc": "2026-11-25T17:44:39+00:00",
+  "generated_utc": "2026-11-25T17:53:37+00:00",
   "cfd_shift": 0.0,
   "summary": {
     "regime": "imbalance_down",

@@ -4,7 +4,7 @@
   "by": "month",
   "source": "yfinance:^STOXX50E",
   "kind": "tpo",
-  "generated_utc": "2026-11-25T17:44:35+00:00",
+  "generated_utc": "2026-11-25T17:53:34+00:00",
   "cfd_shift": 0.0,
   "summary": {
     "regime": "balance",

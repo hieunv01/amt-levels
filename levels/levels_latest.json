@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-25T17:44:24+00:00",
+  "generated_utc": "2026-11-25T17:53:23+00:00",
   "symbols": {
     "NQ": {
       "symbol": "NQ",
@@ -43,7 +43,7 @@
         "failed_auction_today": null
       },
       "last_date": "2026-11-25",
-      "last_close_futures": 25572.25,
+      "last_close_futures": 25716.75,
       "cfd_shift": 0.0,
       "levels_in": "futures"
     },
@@ -89,7 +89,7 @@
         "failed_auction_today": null
       },
       "last_date": "2026-11-25",
-      "last_close_futures": 7111.0,
+      "last_close_futures": 7136.25,
       "cfd_shift": 0.0,
       "levels_in": "futures"
     },
@@ -135,7 +135,7 @@
         "failed_auction_today": null
       },
       "last_date": "2026-11-25",
-      "last_close_futures": 56420.0,
+      "last_close_futures": 56745.0,
       "cfd_shift": 0.0,
       "levels_in": "futures"
     },
@@ -181,7 +181,7 @@
         "failed_auction_today": null
       },
       "last_date": "2026-11-25",
-      "last_close_futures": 49895.0,
+      "last_close_futures": 50022.0,
       "cfd_shift": 0.0,
       "levels_in": "futures"
     },
@@ -227,7 +227,7 @@
         "failed_auction_today": null
       },
       "last_date": "2026-11-25",
-      "last_close_futures": 2678.1,
+      "last_close_futures": 2686.5,
       "cfd_shift": 0.0,
       "levels_in": "futures"
     },
@@ -504,6 +504,196 @@
       },
       "last_date": "2026-11-25",
       "last_close_futures": 4701.9,
+      "cfd_shift": 0.0,
+      "levels_in": "cash"
+    },
+    "A50": {
+      "symbol": "A50",
+      "cfd": "CHINA50",
+      "source": "yfinance:2823.HK",
+      "kind": "volume",
+      "week": {
+        "period": "2026-11-16/2026-11-22",
+        "poc": 13.96,
+        "vah": 14.19,
+        "val": 13.89,
+        "shape": "B",
+        "migration": "lower",
+        "high_quality": "poor",
+        "low_quality": "normal",
+        "regime": "imbalance_down",
+        "position": "inside",
+        "acceptance": {
+          "side": null,
+          "count": 0,
+          "accepted": false
+        },
+        "failed_auction_today": "failed_above",
+        "poc_rel": 0.99148,
+        "vah_rel": 1.00781,
+        "val_rel": 0.98651
+      },
+      "month": {
+        "period": "2026-10",
+        "poc": 15.07,
+        "vah": 15.5,
+        "val": 14.77,
+        "shape": "B",
+        "migration": "lower",
+        "high_quality": "excess",
+        "low_quality": "excess",
+        "regime": "imbalance_down",
+        "position": "below",
+        "acceptance": {
+          "side": "below",
+          "count": 9,
+          "accepted": true
+        },
+        "failed_auction_today": null,
+        "poc_rel": 1.07031,
+        "vah_rel": 1.10085,
+        "val_rel": 1.04901
+      },
+      "last_date": "2026-11-25",
+      "last_close_futures": 14.08,
+      "cfd_shift": 0.0,
+      "levels_in": "etf"
+    },
+    "HSCEI": {
+      "symbol": "HSCEI",
+      "cfd": "CHINAH",
+      "source": "yfinance:^HSCE",
+      "kind": "tpo",
+      "week": {
+        "period": "2026-11-16/2026-11-22",
+        "poc": 7836.76,
+        "vah": 8028.5,
+        "val": 7684.1,
+        "shape": "B",
+        "migration": "lower",
+        "high_quality": "excess",
+        "low_quality": "normal",
+        "regime": "balance",
+        "position": "below",
+        "acceptance": {
+          "side": "below",
+          "count": 3,
+          "accepted": true
+        },
+        "failed_auction_today": null
+      },
+      "month": {
+        "period": "2026-10",
+        "poc": 8074.9,
+        "vah": 8255.65,
+        "val": 7816.0,
+        "shape": "B",
+        "migration": "overlap_lower",
+        "high_quality": "normal",
+        "low_quality": "poor",
+        "regime": "balance",
+        "position": "below",
+        "acceptance": {
+          "side": "below",
+          "count": 5,
+          "accepted": true
+        },
+        "failed_auction_today": null
+      },
+      "last_date": "2026-11-25",
+      "last_close_futures": 7384.94,
+      "cfd_shift": 0.0,
+      "levels_in": "cash"
+    },
+    "HSTECH": {
+      "symbol": "HSTECH",
+      "cfd": "HKTECH",
+      "source": "yfinance:HSTECH.HK",
+      "kind": "tpo",
+      "week": {
+        "period": "2026-11-16/2026-11-22",
+        "poc": 3731.0,
+        "vah": 3852.0,
+        "val": 3646.0,
+        "shape": "B",
+        "migration": "lower",
+        "high_quality": "normal",
+        "low_quality": "excess",
+        "regime": "balance",
+        "position": "below",
+        "acceptance": {
+          "side": "below",
+          "count": 3,
+          "accepted": true
+        },
+        "failed_auction_today": null
+      },
+      "month": {
+        "period": "2026-10",
+        "poc": 4169.35,
+        "vah": 4254.84,
+        "val": 3854.26,
+        "shape": "B",
+        "migration": "overlap_lower",
+        "high_quality": "excess",
+        "low_quality": "excess",
+        "regime": "balance",
+        "position": "below",
+        "acceptance": {
+          "side": "below",
+          "count": 9,
+          "accepted": true
+        },
+        "failed_auction_today": null
+      },
+      "last_date": "2026-11-25",
+      "last_close_futures": 3378.26,
+      "cfd_shift": 0.0,
+      "levels_in": "cash"
+    },
+    "CSI300": {
+      "symbol": "CSI300",
+      "cfd": "CHINA300",
+      "source": "yfinance:000300.SS",
+      "kind": "volume",
+      "week": {
+        "period": "2026-11-16/2026-11-22",
+        "poc": 3971.1,
+        "vah": 3986.47,
+        "val": 3944.02,
+        "shape": "B",
+        "migration": "lower",
+        "high_quality": "excess",
+        "low_quality": "excess",
+        "regime": "balance",
+        "position": "below",
+        "acceptance": {
+          "side": "below",
+          "count": 1,
+          "accepted": false
+        },
+        "failed_auction_today": null
+      },
+      "month": {
+        "period": "2026-10",
+        "poc": 4083.34,
+        "vah": 4221.2,
+        "val": 3957.68,
+        "shape": "B",
+        "migration": "lower",
+        "high_quality": "excess",
+        "low_quality": "excess",
+        "regime": "imbalance_down",
+        "position": "below",
+        "acceptance": {
+          "side": "below",
+          "count": 1,
+          "accepted": false
+        },
+        "failed_auction_today": null
+      },
+      "last_date": "2026-11-25",
+      "last_close_futures": 3899.47,
       "cfd_shift": 0.0,
       "levels_in": "cash"
     }

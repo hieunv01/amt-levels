@@ -4,7 +4,7 @@
   "by": "week",
   "source": "yfinance:NKD=F",
   "kind": "volume",
-  "generated_utc": "2026-11-25T17:44:30+00:00",
+  "generated_utc": "2026-11-25T17:53:29+00:00",
   "cfd_shift": 0.0,
   "summary": {
     "regime": "balance",
@@ -49,8 +49,8 @@
       "high": 59340.0,
       "low": 55405.0,
       "va_width": 2150.0,
-      "va_share": 0.7051,
-      "total": 23056.0,
+      "va_share": 0.7059,
+      "total": 23117.0,
       "shape": "B",
       "hvn": [
         56225.0,
@@ -65,15 +65,15 @@
       "migration": "overlap_lower"
     },
     "last_date": "2026-11-25",
-    "last_close": 56420.0,
+    "last_close": 56745.0,
     "position": {
       "pos": "below",
-      "d_poc": -2755.0,
-      "d_vah": -3980.0,
-      "d_val": -530.0,
-      "d_poc_atr": -1.1442,
-      "d_vah_atr": -1.6529,
-      "d_val_atr": -0.2201
+      "d_poc": -2430.0,
+      "d_vah": -3655.0,
+      "d_val": -205.0,
+      "d_poc_atr": -1.0092,
+      "d_vah_atr": -1.5179,
+      "d_val_atr": -0.0851
     },
     "acceptance": {
       "side": "below",
@@ -240,8 +240,8 @@
       "high": 59340.0,
       "low": 55405.0,
       "va_width": 2150.0,
-      "va_share": 0.7051,
-      "total": 23056.0,
+      "va_share": 0.7059,
+      "total": 23117.0,
       "shape": "B",
       "hvn": [
         56225.0,

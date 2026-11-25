@@ -1,0 +1,257 @@
+{
+  "symbol": "CSI300",
+  "cfd": "CHINA300",
+  "by": "week",
+  "source": "yfinance:000300.SS",
+  "kind": "volume",
+  "generated_utc": "2026-11-25T17:53:42+00:00",
+  "cfd_shift": 0.0,
+  "summary": {
+    "regime": "balance",
+    "reference": {
+      "period": "2026-11-16/2026-11-22",
+      "kind": "volume",
+      "complete": true,
+      "start": "2026-11-16 00:00:00",
+      "end": "2026-11-20 00:00:00",
+      "row_size": 1.464,
+      "poc": 3971.1,
+      "vah": 3986.472,
+      "val": 3944.016,
+      "high": 3996.937256,
+      "low": 3894.472412,
+      "va_width": 42.456,
+      "va_share": 0.7214,
+      "total": 81175979000.0,
+      "shape": "B",
+      "hvn": [
+        3916.932,
+        3971.1
+      ],
+      "lvn": [
+        3935.964
+      ],
+      "high_quality": "excess",
+      "low_quality": "excess",
+      "tpo_poc": 3963.78,
+      "migration": "lower"
+    },
+    "developing": {
+      "period": "2026-11-23/2026-11-29",
+      "kind": "volume",
+      "complete": false,
+      "start": "2026-11-23 00:00:00",
+      "end": "2026-11-25 00:00:00",
+      "row_size": 1.464,
+      "poc": 3925.716,
+      "vah": 3970.368,
+      "val": 3889.848,
+      "high": 4011.413574,
+      "low": 3887.122314,
+      "va_width": 80.52,
+      "va_share": 0.7149,
+      "total": 50911696208.0,
+      "shape": "B",
+      "hvn": [
+        3909.612,
+        3995.988
+      ],
+      "lvn": [
+        3940.356
+      ],
+      "high_quality": "excess",
+      "low_quality": "excess",
+      "tpo_poc": 3925.716,
+      "migration": "overlap_lower"
+    },
+    "last_date": "2026-11-25",
+    "last_close": 3899.47,
+    "position": {
+      "pos": "below",
+      "d_poc": -71.6303,
+      "d_vah": -87.0023,
+      "d_val": -44.5463,
+      "d_poc_atr": -1.2421,
+      "d_vah_atr": -1.5086,
+      "d_val_atr": -0.7724
+    },
+    "acceptance": {
+      "side": "below",
+      "count": 1,
+      "accepted": false
+    },
+    "failed_auction_today": null,
+    "atr": 57.6691
+  },
+  "profiles": [
+    {
+      "period": "2026-10-19/2026-10-25",
+      "kind": "volume",
+      "complete": true,
+      "start": "2026-10-19 00:00:00",
+      "end": "2026-10-23 00:00:00",
+      "row_size": 1.464,
+      "poc": 4154.1,
+      "vah": 4189.968,
+      "val": 4059.672,
+      "high": 4191.949707,
+      "low": 3958.395264,
+      "va_width": 130.296,
+      "va_share": 0.71,
+      "total": 77986446592.0,
+      "shape": "B",
+      "hvn": [
+        3991.596,
+        4056.012,
+        4151.172
+      ],
+      "lvn": [
+        4006.236,
+        4086.756
+      ],
+      "high_quality": "normal",
+      "low_quality": "excess",
+      "tpo_poc": 4060.404,
+      "migration": "overlap_lower"
+    },
+    {
+      "period": "2026-10-26/2026-11-01",
+      "kind": "volume",
+      "complete": true,
+      "start": "2026-10-26 00:00:00",
+      "end": "2026-10-30 00:00:00",
+      "row_size": 1.464,
+      "poc": 4069.188,
+      "vah": 4105.056,
+      "val": 4042.104,
+      "high": 4110.001953,
+      "low": 3968.856201,
+      "va_width": 62.952,
+      "va_share": 0.7048,
+      "total": 80662105800.0,
+      "shape": "B",
+      "hvn": [
+        4000.38,
+        4069.188
+      ],
+      "lvn": [
+        4025.268
+      ],
+      "high_quality": "excess",
+      "low_quality": "excess",
+      "tpo_poc": 4069.188,
+      "migration": "overlap_lower"
+    },
+    {
+      "period": "2026-11-02/2026-11-08",
+      "kind": "volume",
+      "complete": true,
+      "start": "2026-11-02 00:00:00",
+      "end": "2026-11-06 00:00:00",
+      "row_size": 1.464,
+      "poc": 4010.628,
+      "vah": 4064.064,
+      "val": 3974.76,
+      "high": 4136.79834,
+      "low": 3969.851074,
+      "va_width": 89.304,
+      "va_share": 0.7103,
+      "total": 101512554800.0,
+      "shape": "B",
+      "hvn": [
+        4012.092,
+        4054.548,
+        4105.788
+      ],
+      "lvn": [
+        4041.372,
+        4067.724
+      ],
+      "high_quality": "excess",
+      "low_quality": "excess",
+      "tpo_poc": 4010.628,
+      "migration": "overlap_lower"
+    },
+    {
+      "period": "2026-11-09/2026-11-15",
+      "kind": "volume",
+      "complete": true,
+      "start": "2026-11-09 00:00:00",
+      "end": "2026-11-13 00:00:00",
+      "row_size": 1.464,
+      "poc": 4066.26,
+      "vah": 4084.56,
+      "val": 4042.104,
+      "high": 4100.046875,
+      "low": 4004.57959,
+      "va_width": 42.456,
+      "va_share": 0.7291,
+      "total": 75309727516.0,
+      "shape": "D",
+      "hvn": [
+        4064.796
+      ],
+      "lvn": [],
+      "high_quality": "excess",
+      "low_quality": "normal",
+      "tpo_poc": 4064.796,
+      "migration": "overlap_higher"
+    },
+    {
+      "period": "2026-11-16/2026-11-22",
+      "kind": "volume",
+      "complete": true,
+      "start": "2026-11-16 00:00:00",
+      "end": "2026-11-20 00:00:00",
+      "row_size": 1.464,
+      "poc": 3971.1,
+      "vah": 3986.472,
+      "val": 3944.016,
+      "high": 3996.937256,
+      "low": 3894.472412,
+      "va_width": 42.456,
+      "va_share": 0.7214,
+      "total": 81175979000.0,
+      "shape": "B",
+      "hvn": [
+        3916.932,
+        3971.1
+      ],
+      "lvn": [
+        3935.964
+      ],
+      "high_quality": "excess",
+      "low_quality": "excess",
+      "tpo_poc": 3963.78,
+      "migration": "lower"
+    },
+    {
+      "period": "2026-11-23/2026-11-29",
+      "kind": "volume",
+      "complete": false,
+      "start": "2026-11-23 00:00:00",
+      "end": "2026-11-25 00:00:00",
+      "row_size": 1.464,
+      "poc": 3925.716,
+      "vah": 3970.368,
+      "val": 3889.848,
+      "high": 4011.413574,
+      "low": 3887.122314,
+      "va_width": 80.52,
+      "va_share": 0.7149,
+      "total": 50911696208.0,
+      "shape": "B",
+      "hvn": [
+        3909.612,
+        3995.988
+      ],
+      "lvn": [
+        3940.356
+      ],
+      "high_quality": "excess",
+      "low_quality": "excess",
+      "tpo_poc": 3925.716,
+      "migration": "overlap_lower"
+    }
+  ]
+}
