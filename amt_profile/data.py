@@ -20,16 +20,24 @@ INSTRUMENTS: dict[str, dict] = {
     "YM":   dict(tick=1.0,  yf="YM=F",  tz="America/Chicago", roll_hour=17, rth=("08:30", "15:00"), cfd="US30"),
     "NKD":  dict(tick=5.0,  yf="NKD=F", tz="America/Chicago", roll_hour=17, rth=None, cfd="JP225"),
     "NIY":  dict(tick=5.0,  yf="NIY=F", tz="America/Chicago", roll_hour=17, rth=None, cfd="JP225"),
+    "RTY":  dict(tick=0.1,  yf="RTY=F", tz="America/Chicago", roll_hour=17, rth=("08:30", "15:00"), cfd="US2000"),
     # Eurex: calendar day in Berlin time
-    "FDAX": dict(tick=0.5,  yf=None, tz="Europe/Berlin", roll_hour=0, rth=("09:00", "17:30"), cfd="GER40"),
-    "FESX": dict(tick=1.0,  yf=None, tz="Europe/Berlin", roll_hour=0, rth=("09:00", "17:30"), cfd="EU50"),
+    "FDAX": dict(tick=0.5,  yf="^GDAXI", yf_kind="tpo", tz="Europe/Berlin", roll_hour=0, rth=("09:00", "17:30"), cfd="GER40"),
+    "FESX": dict(tick=1.0,  yf="^STOXX50E", yf_kind="tpo", tz="Europe/Berlin", roll_hour=0, rth=("09:00", "17:30"), cfd="EU50"),
     # ICE FTSE 100
-    "Z":    dict(tick=0.5,  yf=None, tz="Europe/London", roll_hour=0, rth=("08:00", "16:30"), cfd="UK100"),
+    "Z":    dict(tick=0.5,  yf="^FTSE", yf_kind="tpo", tz="Europe/London", roll_hour=0, rth=("08:00", "16:30"), cfd="UK100"),
     # Asia: tick left to inference, check your exchange spec
-    "HSI":  dict(tick=None, yf=None, tz="Asia/Hong_Kong", roll_hour=17.25, rth=("09:15", "16:30"), cfd="HK50"),
-    "SPI":  dict(tick=None, yf=None, tz="Australia/Sydney", roll_hour=17.1, rth=("09:50", "16:30"), cfd="AUS200"),
+    "HSI":  dict(tick=None, yf="^HSI", yf_kind="tpo", tz="Asia/Hong_Kong", roll_hour=17.25, rth=("09:15", "16:30"), cfd="HK50"),
+    "SPI":  dict(tick=None, yf="^AXJO", yf_kind="tpo", tz="Australia/Sydney", roll_hour=17.1, rth=("09:50", "16:30"), cfd="AUS200"),
+    # Yahoo has no intraday A50 feed (XIN9.FGI is daily only): needs data/A50.csv
     "A50":  dict(tick=None, yf=None, tz="Asia/Singapore", roll_hour=17.0, rth=("09:00", "16:35"), cfd="CHINA50"),
+    # KOSPI cash index: Yahoo carries real exchange volume
+    "KOSPI": dict(tick=None, yf="^KS11", tz="Asia/Seoul", roll_hour=0, rth=("09:00", "15:30"), cfd="KOSPI"),
 }
+
+# yf = Yahoo ticker used when no local data file exists. A "^" ticker is the cash index, not the
+# futures contract. yf_kind="tpo": Yahoo reports zero volume for that index, so build time-at-price
+# profiles from its bars instead of volume profiles. A local futures file always uses volume.
 
 # yfinance intraday history limits (approximate): 1m 7 days; 2m-30m 60 days; 1h ~730 days.
 YF_MAX_DAYS = {"1m": 7, "2m": 60, "5m": 60, "15m": 60, "30m": 60, "60m": 730, "90m": 60, "1h": 730}

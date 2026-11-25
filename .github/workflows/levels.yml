@@ -1,4 +1,4 @@
-# Tính POC/VAH/VAL tuần + tháng cho NQ, ES, NKD và commit vào thư mục levels/.
+# Tính POC/VAH/VAL tuần + tháng cho các mã mặc định trong run_levels.py và commit vào thư mục levels/.
 # Giờ cron là UTC: 22:10 UTC (CN-T5) = 05:10 VN (T2-T6); 07:10 UTC = 14:10 VN; 11:10 UTC = 18:10 VN.
 name: AMT levels
 
@@ -33,7 +33,7 @@ jobs:
         run: pip install -e ".[yfinance]"
 
       - name: Compute levels
-        run: python run_levels.py --symbols NQ ES NKD --out levels
+        run: python run_levels.py --out levels   # symbols: DEFAULT_SYMBOLS in run_levels.py
 
       - name: Commit results
         run: |

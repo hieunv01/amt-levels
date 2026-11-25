@@ -4,9 +4,13 @@ Chạy:      python run_levels.py
 Tùy chọn:  python run_levels.py --symbols NQ ES NKD --out out
            python run_levels.py --cfd NQ=24890 ES=7140      (dịch mức sang giá CFD hiện tại)
 
-- Mã có sẵn trên Yahoo (ES, NQ, YM, NKD, NIY) được tải tự động (cần: pip install yfinance).
-- Mã khác (FDAX, FESX, Z, HSI, SPI, A50): đặt file data/<MÃ>.csv hoặc .parquet
-  với cột time,open,high,low,close,volume (hoặc time,price,size cho tick), giờ UTC.
+- Futures CME trên Yahoo (ES, NQ, YM, RTY, NKD, NIY): volume thật, tải tự động (cần: pip install yfinance).
+- KOSPI: chỉ số cash ^KS11, Yahoo có volume thật.
+- FDAX, FESX, Z, HSI, SPI: Yahoo chỉ có chỉ số cash (^GDAXI, ^STOXX50E, ^FTSE, ^HSI, ^AXJO) và volume = 0,
+  nên dùng profile TPO (thời gian tại giá). Mức giá là của chỉ số cash, không phải futures.
+- A50 (CHINA50): Yahoo không có dữ liệu intraday, phải đặt file data/A50.csv.
+- File data/<MÃ>.csv hoặc .parquet (cột time,open,high,low,close,volume hoặc time,price,size cho tick,
+  giờ UTC) luôn được ưu tiên và tính volume profile.
 Kết quả: out/<MÃ>_week.json, out/<MÃ>_month.json, out/<MÃ>_week.png, và out/levels_latest.json gộp tất cả.
 """
 from __future__ import annotations
@@ -22,7 +26,7 @@ from amt_profile import daily_bars, load_csv, load_yfinance, preset, profiles_by
 from amt_profile.data import basis
 from amt_profile.plot import plot_profiles
 
-DEFAULT_SYMBOLS = ["NQ", "ES", "NKD"]
+DEFAULT_SYMBOLS = ["NQ", "ES", "NKD", "YM", "RTY", "FDAX", "FESX", "Z", "HSI", "SPI", "KOSPI"]
 
 
 def find_local(symbol: str, data_dir: Path):
@@ -40,21 +44,24 @@ def run_symbol(symbol: str, data_dir: Path, out: Path, cfd_price: float | None) 
     if local:
         bars_w = bars_m = load_csv(str(local), tz="UTC")
         source = f"file:{local.name}"
+        kind = "volume"
     elif p.get("yf"):
         bars_w = load_yfinance(symbol, "30m")   # ~60 ngày cho profile tuần
         bars_m = load_yfinance(symbol, "1h")    # ~2 năm cho profile tháng
         source = f"yfinance:{p['yf']}"
+        kind = p.get("yf_kind", "volume")
     else:
         raise RuntimeError(f"không có dữ liệu cho {symbol}: đặt file {data_dir}/{symbol}.csv")
 
-    result = {"symbol": symbol, "cfd": p.get("cfd"), "source": source}
+    cash = source.startswith("yfinance:^")
+    result = {"symbol": symbol, "cfd": p.get("cfd"), "source": source, "kind": kind}
     for by, bars in (("week", bars_w), ("month", bars_m)):
-        profs = profiles_by_period(bars, by=by, **common)
+        profs = profiles_by_period(bars, by=by, kind=kind, **common)
         daily = daily_bars(bars, common["tz"], common["roll_hour"])
         shift = basis(float(daily["close"].iloc[-1]), cfd_price) if cfd_price else 0.0
         snap = summary(profs, daily)
         payload = {
-            "symbol": symbol, "cfd": p.get("cfd"), "by": by, "source": source,
+            "symbol": symbol, "cfd": p.get("cfd"), "by": by, "source": source, "kind": kind,
             "generated_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
             "cfd_shift": shift, "summary": snap,
             "profiles": [(x.shifted(shift) if shift else x).to_dict() for x in profs[-6:]],
@@ -62,7 +69,7 @@ def run_symbol(symbol: str, data_dir: Path, out: Path, cfd_price: float | None) 
         (out / f"{symbol}_{by}.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2, default=str),
                                                  encoding="utf-8")
         if by == "week":
-            plot_profiles(profs, daily, last=5, title=f"{symbol} weekly volume profile",
+            plot_profiles(profs, daily, last=5, title=f"{symbol} weekly {'TPO' if kind == 'tpo' else 'volume'} profile",
                           path=str(out / f"{symbol}_week.png"), cfd_shift=shift)
         ref = snap.get("reference") or {}
         result[by] = {k: (round(ref[k] + shift, 2) if k in ("poc", "vah", "val") and k in ref else ref.get(k))
@@ -74,7 +81,7 @@ def run_symbol(symbol: str, data_dir: Path, out: Path, cfd_price: float | None) 
     result["cfd_shift"] = round(shift, 2)
     if shift and snap.get("last_close") is not None:
         result["last_close_cfd"] = round(snap["last_close"] + shift, 2)
-    result["levels_in"] = "cfd" if shift else "futures"
+    result["levels_in"] = "cfd" if shift else ("cash" if cash else "futures")
     return result
 
 

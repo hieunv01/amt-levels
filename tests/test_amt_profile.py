@@ -238,3 +238,15 @@ def test_cli_csv_end_to_end(tmp_path):
     assert j["summary"]["position"]["pos"] in ("above", "inside", "below")
     assert "cfd_shift" in j["summary"] and png.stat().st_size > 10_000
     assert all({"poc", "vah", "val"} <= set(p) for p in j["profiles"])
+
+
+def test_run_levels_uses_tpo_for_cash_index_without_volume(monkeypatch, tmp_path):
+    import run_levels
+    bars = synth_bars(weeks=6, tz="UTC").assign(volume=0.0)   # Yahoo cash indices report zero volume
+    monkeypatch.setattr(run_levels, "load_yfinance", lambda sym, iv: bars)
+    res = run_levels.run_symbol("FDAX", tmp_path / "none", tmp_path, None)
+    assert res["kind"] == "tpo" and res["levels_in"] == "cash" and res["source"] == "yfinance:^GDAXI"
+    assert res["week"]["val"] <= res["week"]["poc"] <= res["week"]["vah"]
+    monkeypatch.setattr(run_levels, "load_yfinance", lambda sym, iv: synth_bars(weeks=6))
+    res = run_levels.run_symbol("NQ", tmp_path / "none", tmp_path, None)
+    assert res["kind"] == "volume" and res["levels_in"] == "futures"
