@@ -3,7 +3,8 @@
   "cfd": "NAS100",
   "by": "week",
   "source": "yfinance:NQ=F",
-  "generated_utc": "2026-11-25T17:34:27+00:00",
+  "kind": "volume",
+  "generated_utc": "2026-11-25T17:44:25+00:00",
   "cfd_shift": 0.0,
   "summary": {
     "regime": "imbalance_down",
@@ -41,12 +42,12 @@
       "row_size": 25.0,
       "poc": 26812.5,
       "vah": 27075.0,
-      "val": 25900.0,
+      "val": 25850.0,
       "high": 27137.0,
       "low": 25027.5,
-      "va_width": 1175.0,
-      "va_share": 0.7014,
-      "total": 2659516.0,
+      "va_width": 1225.0,
+      "va_share": 0.718,
+      "total": 2682836.0,
       "shape": "B",
       "hvn": [
         25187.5,
@@ -54,7 +55,7 @@
         26837.5
       ],
       "lvn": [
-        25712.5,
+        25737.5,
         26587.5
       ],
       "high_quality": "excess",
@@ -63,15 +64,15 @@
       "migration": "overlap_lower"
     },
     "last_date": "2026-11-25",
-    "last_close": 25520.75,
+    "last_close": 25572.25,
     "position": {
       "pos": "below",
-      "d_poc": -1741.75,
-      "d_vah": -2354.25,
-      "d_val": -1129.25,
-      "d_poc_atr": -1.5845,
-      "d_vah_atr": -2.1417,
-      "d_val_atr": -1.0273
+      "d_poc": -1690.25,
+      "d_vah": -2302.75,
+      "d_val": -1077.75,
+      "d_poc_atr": -1.5376,
+      "d_vah_atr": -2.0948,
+      "d_val_atr": -0.9804
     },
     "acceptance": {
       "side": "below",
@@ -232,12 +233,12 @@
       "row_size": 25.0,
       "poc": 26812.5,
       "vah": 27075.0,
-      "val": 25900.0,
+      "val": 25850.0,
       "high": 27137.0,
       "low": 25027.5,
-      "va_width": 1175.0,
-      "va_share": 0.7014,
-      "total": 2659516.0,
+      "va_width": 1225.0,
+      "va_share": 0.718,
+      "total": 2682836.0,
       "shape": "B",
       "hvn": [
         25187.5,
@@ -245,7 +246,7 @@
         26837.5
       ],
       "lvn": [
-        25712.5,
+        25737.5,
         26587.5
       ],
       "high_quality": "excess",

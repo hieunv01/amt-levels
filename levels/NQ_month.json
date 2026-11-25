@@ -3,7 +3,8 @@
   "cfd": "NAS100",
   "by": "month",
   "source": "yfinance:NQ=F",
-  "generated_utc": "2026-11-25T17:34:30+00:00",
+  "kind": "volume",
+  "generated_utc": "2026-11-25T17:44:28+00:00",
   "cfd_shift": 0.0,
   "summary": {
     "regime": "balance",
@@ -48,8 +49,8 @@
       "high": 28969.0,
       "low": 24976.5,
       "va_width": 1875.0,
-      "va_share": 0.7072,
-      "total": 15592923.0,
+      "va_share": 0.7062,
+      "total": 15616243.0,
       "shape": "B",
       "hvn": [
         27162.5,
@@ -64,15 +65,15 @@
       "migration": "lower"
     },
     "last_date": "2026-11-25",
-    "last_close": 25520.75,
+    "last_close": 25572.25,
     "position": {
       "pos": "below",
-      "d_poc": -4291.75,
-      "d_vah": -5304.25,
-      "d_val": -3079.25,
-      "d_poc_atr": -3.9042,
-      "d_vah_atr": -4.8253,
-      "d_val_atr": -2.8012
+      "d_poc": -4240.25,
+      "d_vah": -5252.75,
+      "d_val": -3027.75,
+      "d_poc_atr": -3.8573,
+      "d_vah_atr": -4.7784,
+      "d_val_atr": -2.7543
     },
     "acceptance": {
       "side": "below",
@@ -235,8 +236,8 @@
       "high": 28969.0,
       "low": 24976.5,
       "va_width": 1875.0,
-      "va_share": 0.7072,
-      "total": 15592923.0,
+      "va_share": 0.7062,
+      "total": 15616243.0,
       "shape": "B",
       "hvn": [
         27162.5,
