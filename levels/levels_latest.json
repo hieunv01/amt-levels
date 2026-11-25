@@ -1,0 +1,140 @@
+{
+  "generated_utc": "2026-11-25T17:34:26+00:00",
+  "symbols": {
+    "NQ": {
+      "symbol": "NQ",
+      "cfd": "NAS100",
+      "source": "yfinance:NQ=F",
+      "week": {
+        "period": "2026-11-16/2026-11-22",
+        "poc": 27262.5,
+        "vah": 27875.0,
+        "val": 26650.0,
+        "shape": "P",
+        "migration": "overlap_lower",
+        "high_quality": "normal",
+        "low_quality": "excess",
+        "regime": "imbalance_down",
+        "position": "below",
+        "acceptance": {
+          "side": "below",
+          "count": 2,
+          "accepted": true
+        },
+        "failed_auction_today": null
+      },
+      "month": {
+        "period": "2026-10",
+        "poc": 29812.5,
+        "vah": 30825.0,
+        "val": 28600.0,
+        "shape": "B",
+        "migration": "outside",
+        "high_quality": "normal",
+        "low_quality": "excess",
+        "regime": "balance",
+        "position": "below",
+        "acceptance": {
+          "side": "below",
+          "count": 15,
+          "accepted": true
+        },
+        "failed_auction_today": null
+      },
+      "last_date": "2026-11-25",
+      "last_close_futures": 25520.75,
+      "cfd_shift": 0.0,
+      "levels_in": "futures"
+    },
+    "ES": {
+      "symbol": "ES",
+      "cfd": "US500",
+      "source": "yfinance:ES=F",
+      "week": {
+        "period": "2026-11-16/2026-11-22",
+        "poc": 7348.75,
+        "vah": 7460.0,
+        "val": 7152.5,
+        "shape": "D",
+        "migration": "lower",
+        "high_quality": "poor",
+        "low_quality": "excess",
+        "regime": "imbalance_down",
+        "position": "below",
+        "acceptance": {
+          "side": "below",
+          "count": 1,
+          "accepted": false
+        },
+        "failed_auction_today": null
+      },
+      "month": {
+        "period": "2026-10",
+        "poc": 7762.5,
+        "vah": 7815.0,
+        "val": 7670.0,
+        "shape": "B",
+        "migration": "overlap_higher",
+        "high_quality": "normal",
+        "low_quality": "excess",
+        "regime": "balance",
+        "position": "below",
+        "acceptance": {
+          "side": "below",
+          "count": 15,
+          "accepted": true
+        },
+        "failed_auction_today": null
+      },
+      "last_date": "2026-11-25",
+      "last_close_futures": 7099.5,
+      "cfd_shift": 0.0,
+      "levels_in": "futures"
+    },
+    "NKD": {
+      "symbol": "NKD",
+      "cfd": "JP225",
+      "source": "yfinance:NKD=F",
+      "week": {
+        "period": "2026-11-16/2026-11-22",
+        "poc": 59175.0,
+        "vah": 60400.0,
+        "val": 56950.0,
+        "shape": "B",
+        "migration": "overlap_lower",
+        "high_quality": "normal",
+        "low_quality": "excess",
+        "regime": "balance",
+        "position": "below",
+        "acceptance": {
+          "side": "below",
+          "count": 1,
+          "accepted": false
+        },
+        "failed_auction_today": null
+      },
+      "month": {
+        "period": "2026-10",
+        "poc": 64825.0,
+        "vah": 67150.0,
+        "val": 61650.0,
+        "shape": "B",
+        "migration": "outside",
+        "high_quality": "poor",
+        "low_quality": "normal",
+        "regime": "balance",
+        "position": "below",
+        "acceptance": {
+          "side": "below",
+          "count": 10,
+          "accepted": true
+        },
+        "failed_auction_today": null
+      },
+      "last_date": "2026-11-25",
+      "last_close_futures": 56370.0,
+      "cfd_shift": 0.0,
+      "levels_in": "futures"
+    }
+  }
+}
