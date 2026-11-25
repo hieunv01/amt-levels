@@ -29,14 +29,23 @@ INSTRUMENTS: dict[str, dict] = {
     # Asia: tick left to inference, check your exchange spec
     "HSI":  dict(tick=None, yf="^HSI", yf_kind="tpo", tz="Asia/Hong_Kong", roll_hour=17.25, rth=("09:15", "16:30"), cfd="HK50"),
     "SPI":  dict(tick=None, yf="^AXJO", yf_kind="tpo", tz="Australia/Sydney", roll_hour=17.1, rth=("09:50", "16:30"), cfd="AUS200"),
-    # Yahoo has no intraday A50 feed (XIN9.FGI is daily only): needs data/A50.csv
-    "A50":  dict(tick=None, yf=None, tz="Asia/Singapore", roll_hour=17.0, rth=("09:00", "16:35"), cfd="CHINA50"),
-    # KOSPI cash index: Yahoo carries real exchange volume
+    # Yahoo's A50 index (XIN9.FGI) has no usable intraday bars, so fall back to the iShares FTSE A50
+    # ETF in HKD: real volume, but prices are in ETF units (see yf_type="etf").
+    "A50":  dict(tick=None, yf="2823.HK", yf_type="etf", tz="Asia/Singapore", roll_hour=17.0,
+                 rth=("09:00", "16:35"), cfd="CHINA50"),
+    "HSCEI": dict(tick=None, yf="^HSCE", yf_kind="tpo", tz="Asia/Hong_Kong", roll_hour=17.25,
+                  rth=("09:30", "16:00"), cfd="CHINAH"),
+    "HSTECH": dict(tick=None, yf="HSTECH.HK", yf_kind="tpo", tz="Asia/Hong_Kong", roll_hour=17.25,
+                   rth=("09:30", "16:00"), cfd="HKTECH"),
+    # Mainland and Korean cash indices: Yahoo carries real exchange volume
+    "CSI300": dict(tick=None, yf="000300.SS", tz="Asia/Shanghai", roll_hour=0, rth=("09:30", "15:00"),
+                   cfd="CHINA300"),
     "KOSPI": dict(tick=None, yf="^KS11", tz="Asia/Seoul", roll_hour=0, rth=("09:00", "15:30"), cfd="KOSPI"),
 }
 
-# yf = Yahoo ticker used when no local data file exists. A "^" ticker is the cash index, not the
-# futures contract. yf_kind="tpo": Yahoo reports zero volume for that index, so build time-at-price
+# yf = Yahoo ticker used when no local data file exists. yf_type = what that ticker is: "futures"
+# (default for "=F" tickers), "cash" (the index itself, default otherwise) or "etf" (a fund tracking
+# the index, priced in its own units, so levels must be rescaled to the CFD, not shifted). yf_kind="tpo": Yahoo reports zero volume for that index, so build time-at-price
 # profiles from its bars instead of volume profiles. A local futures file always uses volume.
 
 # yfinance intraday history limits (approximate): 1m 7 days; 2m-30m 60 days; 1h ~730 days.
@@ -45,6 +54,12 @@ YF_MAX_DAYS = {"1m": 7, "2m": 60, "5m": 60, "15m": 60, "30m": 60, "60m": 730, "9
 
 def preset(symbol: str) -> dict:
     return dict(INSTRUMENTS.get(symbol.upper(), {}))
+
+
+def yf_type(p: dict) -> str:
+    """Kind of instrument behind a preset's Yahoo ticker: "futures", "cash" or "etf"."""
+    t = p.get("yf") or ""
+    return p.get("yf_type") or ("futures" if t.endswith("=F") else "cash")
 
 
 def _standardise(df: pd.DataFrame) -> pd.DataFrame:
@@ -85,6 +100,9 @@ def load_yfinance(symbol: str, interval: str = "30m", days: Optional[int] = None
     days = days or YF_MAX_DAYS.get(interval, 60)
     days = min(days, YF_MAX_DAYS.get(interval, days))
     df = yf.download(ticker, period=f"{days}d", interval=interval, auto_adjust=False, progress=False)
+    if (df is None or df.empty) and days >= 700:
+        # Yahoo rejects "730d" of 1h bars for some exchanges (e.g. HKEX) but accepts "2y"
+        df = yf.download(ticker, period="2y", interval=interval, auto_adjust=False, progress=False)
     if df is None or df.empty:
         raise RuntimeError(f"yfinance returned no data for {ticker} {interval}")
     if isinstance(df.columns, pd.MultiIndex):  # newer yfinance returns (field, ticker) columns

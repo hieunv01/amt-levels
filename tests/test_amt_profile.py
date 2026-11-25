@@ -250,3 +250,39 @@ def test_run_levels_uses_tpo_for_cash_index_without_volume(monkeypatch, tmp_path
     monkeypatch.setattr(run_levels, "load_yfinance", lambda sym, iv: synth_bars(weeks=6))
     res = run_levels.run_symbol("NQ", tmp_path / "none", tmp_path, None)
     assert res["kind"] == "volume" and res["levels_in"] == "futures"
+
+
+def test_load_yfinance_retries_2y_when_730d_rejected(monkeypatch):
+    import sys
+    import types
+    raw = synth_bars(weeks=1).rename(columns=str.title)
+    raw.index.name = "Datetime"
+    periods = []
+
+    def download(ticker, **kw):
+        periods.append(kw["period"])
+        return raw if kw["period"] == "2y" else pd.DataFrame()   # HKEX tickers reject "730d"
+
+    monkeypatch.setitem(sys.modules, "yfinance", types.SimpleNamespace(download=download))
+    from amt_profile.data import load_yfinance
+    assert not load_yfinance("A50", "1h").empty and periods == ["730d", "2y"]
+
+
+def test_run_levels_etf_proxy_scales_by_ratio(monkeypatch, tmp_path):
+    import run_levels
+    etf = synth_bars(weeks=6, seed=3)
+    etf[["open", "high", "low", "close"]] /= 1800        # ETF trades near 14 while the index is ~25000
+    monkeypatch.setattr(run_levels, "load_yfinance", lambda sym, iv: etf)
+    last = float(etf["close"].iloc[-1])
+
+    res = run_levels.run_symbol("A50", tmp_path / "none", tmp_path, None)
+    w = res["week"]
+    assert res["levels_in"] == "etf" and res["cfd"] == "CHINA50"
+    assert w["poc_rel"] == pytest.approx(w["poc"] / last, rel=1e-3)
+
+    cfd_price = 13050.0
+    res = run_levels.run_symbol("A50", tmp_path / "none", tmp_path, cfd_price)
+    assert res["levels_in"] == "cfd" and res["cfd_scale"] == pytest.approx(cfd_price / last, rel=1e-5)
+    assert res["last_close_futures"] == pytest.approx(cfd_price)
+    # ratio-scaled profile must land where the ETF-unit levels point, within one row
+    assert res["week"]["poc"] == pytest.approx(w["poc_rel"] * cfd_price, rel=2e-3)

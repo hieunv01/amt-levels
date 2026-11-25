@@ -14,7 +14,7 @@ Module Python tính **volume profile** và **TPO (Market Profile)** theo ngày, 
 pip install -e .            # numpy, pandas, matplotlib
 pip install -e ".[yfinance]"   # nếu muốn tải dữ liệu Yahoo
 pip install -e ".[mt5]"        # nếu lấy dữ liệu từ MetaTrader 5 (Windows)
-pytest -q                      # 26 test, dữ liệu tổng hợp, không cần mạng
+pytest -q                      # 28 test, dữ liệu tổng hợp, không cần mạng
 ```
 
 ## Chạy nhanh bằng dòng lệnh
@@ -57,7 +57,7 @@ regime: imbalance_down | last close 25010.0 (CFD) is below last completed value 
 
 ## Chạy tự động mỗi ngày
 
-`run_levels.py` tính profile tuần và tháng cho nhiều mã (mặc định NQ, ES, NKD, YM, RTY, FDAX, FESX, Z, HSI, SPI, KOSPI) rồi ghi vào `out/`: file `<MÃ>_week.json`, `<MÃ>_month.json`, ảnh `<MÃ>_week.png`, và `levels_latest.json` gộp tất cả. Log ghi ở `out/run.log`.
+`run_levels.py` tính profile tuần và tháng cho nhiều mã (mặc định NQ, ES, NKD, YM, RTY, FDAX, FESX, Z, HSI, SPI, KOSPI, A50, HSCEI, HSTECH, CSI300) rồi ghi vào `out/`: file `<MÃ>_week.json`, `<MÃ>_month.json`, ảnh `<MÃ>_week.png`, và `levels_latest.json` gộp tất cả. Log ghi ở `out/run.log`.
 
 **Windows**: mở PowerShell trong thư mục module và chạy một lần:
 ```powershell
@@ -78,11 +78,17 @@ Nguồn dữ liệu Yahoo theo từng mã (cột `kind` và `levels_in` trong JS
 | Mã | CFD | Yahoo | Profile |
 |---|---|---|---|
 | ES, NQ, YM, RTY, NKD | US500, NAS100, US30, US2000, JP225 | futures CME (`ES=F`…) | volume thật |
-| KOSPI | KOSPI | `^KS11` (cash) | volume thật |
+| KOSPI, CSI300 | KOSPI, CHINA300 | `^KS11`, `000300.SS` (cash) | volume thật |
 | FDAX, FESX, Z, HSI, SPI | GER40, EU50, UK100, HK50, AUS200 | `^GDAXI`, `^STOXX50E`, `^FTSE`, `^HSI`, `^AXJO` (cash) | TPO, vì Yahoo trả volume = 0 |
-| A50 | CHINA50 | không có intraday | cần `data/A50.csv` |
+| HSCEI, HSTECH | CHINAH, HKTECH | `^HSCE`, `HSTECH.HK` (cash) | TPO, vì Yahoo trả volume = 0 |
+| A50 | CHINA50 | ETF `2823.HK` (iShares FTSE A50, HKD) | volume thật của ETF |
 
 Với mã cash, mức giá là của chỉ số cash (khớp với CFD cash hơn là futures). Profile tháng dùng nến 1h nên TPO tháng thô hơn TPO tuần (nến 30 phút). File futures trong `data/` luôn được ưu tiên và tính bằng volume.
+
+**A50 qua ETF**: Yahoo không có nến intraday của chỉ số FTSE China A50 nên dùng ETF 2823.HK. Giá ETF chỉ bằng khoảng 1/900 chỉ số, nên mức giá phải quy đổi theo tỷ lệ chứ không cộng chênh lệch:
+- Mặc định `levels_in = "etf"`: POC/VAH/VAL tính bằng HKD của ETF, kèm `poc_rel`, `vah_rel`, `val_rel` = mức / giá đóng cửa ETF. Mức CFD = `*_rel` × giá CHINA50 hiện tại.
+- `--cfd A50=13050`: nhân toàn bộ nến ETF với 13050 / giá đóng cửa ETF, nên profile và ảnh ra thẳng đơn vị CFD (`levels_in = "cfd"`, hệ số ở `cfd_scale`).
+- Tỷ lệ ETF/chỉ số trôi dần theo phí quỹ, cổ tức và tỷ giá CNY/HKD, nên profile tháng cũ lệch nhiều hơn profile tuần.
 
 ## Dùng trong code
 
