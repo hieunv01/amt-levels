@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "amt-profile"
+version = "0.1.0"
+description = "Volume profile / TPO and Auction Market Theory reads for index futures"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "pandas>=2.0", "matplotlib>=3.7"]
+
+[project.optional-dependencies]
+yfinance = ["yfinance>=0.2.40"]
+mt5 = ["MetaTrader5"]
+parquet = ["pyarrow"]
+dev = ["pytest"]
+
+[project.scripts]
+amt-profile = "amt_profile.cli:main"
+
+[tool.setuptools]
+packages = ["amt_profile"]
