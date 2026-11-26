@@ -219,7 +219,7 @@ def test_load_mt5_mocked_prefers_real_volume(monkeypatch):
                                  TIMEFRAME_M5=5, copy_rates_from_pos=lambda s, tf, a, b: rates)
     monkeypatch.setitem(sys.modules, "MetaTrader5", fake)
     from amt_profile.data import load_mt5
-    df = load_mt5("GER40", "M5", n)
+    df = load_mt5("DE40", "M5", n)
     assert df.attrs["volume_source"] == "tick" and (df["volume"] == 7).all()
 
 

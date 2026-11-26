@@ -2,7 +2,7 @@
 
 Examples
 --------
-  # NQ weekly volume profiles from Yahoo 30m bars, mapped to your NAS100 CFD
+  # NQ weekly volume profiles from Yahoo 30m bars, mapped to your USTEC CFD
   python -m amt_profile --source yfinance --symbol NQ --by week --cfd-price 24890 --json nq_week.json --plot nq.png
 
   # FDAX monthly profile from your own 1-minute CSV, day session only
