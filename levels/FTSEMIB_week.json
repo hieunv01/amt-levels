@@ -4,7 +4,7 @@
   "by": "week",
   "source": "yfinance:FTSEMIB.MI",
   "kind": "tpo",
-  "generated_utc": "2026-11-26T17:42:26+00:00",
+  "generated_utc": "2026-11-26T20:09:09+00:00",
   "cfd_shift": 0.0,
   "summary": {
     "regime": "balance",

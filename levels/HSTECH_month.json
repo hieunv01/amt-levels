@@ -4,7 +4,7 @@
   "by": "month",
   "source": "yfinance:HSTECH.HK",
   "kind": "tpo",
-  "generated_utc": "2026-11-26T17:42:38+00:00",
+  "generated_utc": "2026-11-26T20:09:17+00:00",
   "cfd_shift": 0.0,
   "summary": {
     "regime": "balance",
@@ -122,20 +122,21 @@
       "end": "2026-07-31 00:00:00",
       "row_size": 4.885,
       "poc": 4706.6975,
-      "vah": 4855.69,
-      "val": 4626.095,
+      "vah": 4865.46,
+      "val": 4616.325,
       "high": 4914.609863,
       "low": 4434.25,
-      "va_width": 229.595,
-      "va_share": 0.7058,
-      "total": 1533.0,
+      "va_width": 249.135,
+      "va_share": 0.7065,
+      "total": 1346.0,
       "shape": "B",
       "hvn": [
         4530.8375,
-        4706.6975
+        4716.4675,
+        4819.0525
       ],
       "lvn": [
-        4574.8025
+        4579.6875
       ],
       "high_quality": "normal",
       "low_quality": "normal",

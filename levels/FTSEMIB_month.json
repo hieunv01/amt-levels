@@ -4,7 +4,7 @@
   "by": "month",
   "source": "yfinance:FTSEMIB.MI",
   "kind": "tpo",
-  "generated_utc": "2026-11-26T17:42:27+00:00",
+  "generated_utc": "2026-11-26T20:09:10+00:00",
   "cfd_shift": 0.0,
   "summary": {
     "regime": "balance",
@@ -98,8 +98,8 @@
       "high": 53188.371094,
       "low": 49364.160156,
       "va_width": 2300.0,
-      "va_share": 0.7162,
-      "total": 2037.0,
+      "va_share": 0.7166,
+      "total": 2036.0,
       "shape": "B",
       "hvn": [
         50130.0,
@@ -121,17 +121,17 @@
       "start": "2026-07-01 00:00:00",
       "end": "2026-07-31 00:00:00",
       "row_size": 20.0,
-      "poc": 52190.0,
-      "vah": 52560.0,
-      "val": 51420.0,
+      "poc": 52110.0,
+      "vah": 52360.0,
+      "val": 51380.0,
       "high": 53219.828125,
       "low": 51182.429688,
-      "va_width": 1140.0,
+      "va_width": 980.0,
       "va_share": 0.7048,
-      "total": 2083.0,
+      "total": 1877.0,
       "shape": "B",
       "hvn": [
-        52150.0,
+        52110.0,
         52630.0
       ],
       "lvn": [
@@ -166,7 +166,7 @@
       ],
       "high_quality": "normal",
       "low_quality": "excess",
-      "migration": "overlap_higher"
+      "migration": "higher"
     },
     {
       "period": "2026-09",

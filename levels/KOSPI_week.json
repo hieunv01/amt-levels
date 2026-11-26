@@ -4,7 +4,7 @@
   "by": "week",
   "source": "yfinance:^KS11",
   "kind": "volume",
-  "generated_utc": "2026-11-26T17:42:33+00:00",
+  "generated_utc": "2026-11-26T20:09:14+00:00",
   "cfd_shift": 0.0,
   "summary": {
     "regime": "imbalance_down",
@@ -46,11 +46,11 @@
       "high": 5065.740234,
       "low": 4586.799805,
       "va_width": 170.975,
-      "va_share": 0.705,
-      "total": 623594.0,
+      "va_share": 0.7044,
+      "total": 622470.0,
       "shape": "B",
       "hvn": [
-        4721.3525,
+        4760.4325,
         5043.7625
       ],
       "lvn": [
@@ -233,11 +233,11 @@
       "high": 5065.740234,
       "low": 4586.799805,
       "va_width": 170.975,
-      "va_share": 0.705,
-      "total": 623594.0,
+      "va_share": 0.7044,
+      "total": 622470.0,
       "shape": "B",
       "hvn": [
-        4721.3525,
+        4760.4325,
         5043.7625
       ],
       "lvn": [

@@ -4,7 +4,7 @@
   "by": "month",
   "source": "yfinance:2823.HK",
   "kind": "volume",
-  "generated_utc": "2026-11-26T17:42:35+00:00",
+  "generated_utc": "2026-11-26T20:09:15+00:00",
   "cfd_shift": 0.0,
   "summary": {
     "regime": "imbalance_down",
@@ -16,13 +16,13 @@
       "end": "2026-10-30 00:00:00",
       "row_size": 0.01,
       "poc": 15.075,
-      "vah": 15.5,
+      "vah": 15.52,
       "val": 14.77,
       "high": 16.07,
       "low": 14.67,
-      "va_width": 0.73,
-      "va_share": 0.7016,
-      "total": 62066621.0,
+      "va_width": 0.75,
+      "va_share": 0.7044,
+      "total": 64819467.0,
       "shape": "B",
       "hvn": [
         15.085,
@@ -44,19 +44,19 @@
       "end": "2026-11-26 00:00:00",
       "row_size": 0.01,
       "poc": 14.145,
-      "vah": 14.89,
+      "vah": 14.87,
       "val": 13.89,
       "high": 15.14,
       "low": 13.89,
-      "va_width": 1.0,
-      "va_share": 0.7277,
-      "total": 84011385.0,
+      "va_width": 0.98,
+      "va_share": 0.7174,
+      "total": 80873122.0,
       "shape": "B",
       "hvn": [
         13.965,
         14.165,
         14.345,
-        14.925
+        14.875
       ],
       "lvn": [
         14.045,
@@ -73,10 +73,10 @@
     "position": {
       "pos": "below",
       "d_poc": -0.935,
-      "d_vah": -1.36,
+      "d_vah": -1.38,
       "d_val": -0.63,
       "d_poc_atr": -4.2638,
-      "d_vah_atr": -6.202,
+      "d_vah_atr": -6.2932,
       "d_val_atr": -2.873
     },
     "acceptance": {
@@ -101,8 +101,8 @@
       "high": 18.16,
       "low": 16.92,
       "va_width": 0.61,
-      "va_share": 0.7079,
-      "total": 91564038.0,
+      "va_share": 0.7084,
+      "total": 91618438.0,
       "shape": "B",
       "hvn": [
         17.115,
@@ -126,22 +126,22 @@
       "end": "2026-07-31 00:00:00",
       "row_size": 0.01,
       "poc": 16.805,
-      "vah": 17.15,
+      "vah": 17.21,
       "val": 16.64,
-      "high": 17.49,
-      "low": 16.370001,
-      "va_width": 0.51,
-      "va_share": 0.7061,
-      "total": 102930458.0,
+      "high": 17.48,
+      "low": 16.299999,
+      "va_width": 0.57,
+      "va_share": 0.7174,
+      "total": 97900897.0,
       "shape": "D",
       "hvn": [
-        16.805
+        16.865
       ],
       "lvn": [],
       "high_quality": "normal",
       "low_quality": "excess",
       "tpo_poc": 16.975,
-      "migration": "lower"
+      "migration": "overlap_lower"
     },
     {
       "period": "2026-08",
@@ -151,18 +151,18 @@
       "end": "2026-08-31 00:00:00",
       "row_size": 0.01,
       "poc": 16.795,
-      "vah": 17.06,
+      "vah": 17.08,
       "val": 16.67,
       "high": 17.26,
       "low": 16.5,
-      "va_width": 0.39,
-      "va_share": 0.704,
-      "total": 65709450.0,
+      "va_width": 0.41,
+      "va_share": 0.7145,
+      "total": 64109270.0,
       "shape": "B",
       "hvn": [
         16.635,
         16.785,
-        17.035
+        17.045
       ],
       "lvn": [
         16.665,
@@ -186,15 +186,17 @@
       "high": 16.92,
       "low": 15.85,
       "va_width": 0.57,
-      "va_share": 0.713,
-      "total": 41776153.0,
+      "va_share": 0.7188,
+      "total": 41403804.0,
       "shape": "B",
       "hvn": [
         15.915,
+        16.325,
         16.705
       ],
       "lvn": [
-        16.065
+        16.065,
+        16.445
       ],
       "high_quality": "excess",
       "low_quality": "poor",
@@ -209,13 +211,13 @@
       "end": "2026-10-30 00:00:00",
       "row_size": 0.01,
       "poc": 15.075,
-      "vah": 15.5,
+      "vah": 15.52,
       "val": 14.77,
       "high": 16.07,
       "low": 14.67,
-      "va_width": 0.73,
-      "va_share": 0.7016,
-      "total": 62066621.0,
+      "va_width": 0.75,
+      "va_share": 0.7044,
+      "total": 64819467.0,
       "shape": "B",
       "hvn": [
         15.085,
@@ -237,19 +239,19 @@
       "end": "2026-11-26 00:00:00",
       "row_size": 0.01,
       "poc": 14.145,
-      "vah": 14.89,
+      "vah": 14.87,
       "val": 13.89,
       "high": 15.14,
       "low": 13.89,
-      "va_width": 1.0,
-      "va_share": 0.7277,
-      "total": 84011385.0,
+      "va_width": 0.98,
+      "va_share": 0.7174,
+      "total": 80873122.0,
       "shape": "B",
       "hvn": [
         13.965,
         14.165,
         14.345,
-        14.925
+        14.875
       ],
       "lvn": [
         14.045,

@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-26T17:42:11+00:00",
+  "generated_utc": "2026-11-26T20:08:58+00:00",
   "symbols": {
     "NQ": {
       "symbol": "NQ",
@@ -652,9 +652,9 @@
       "kind": "volume",
       "week": {
         "period": "2026-11-16/2026-11-22",
-        "poc": 13.96,
-        "vah": 14.19,
-        "val": 13.89,
+        "poc": 14.19,
+        "vah": 14.25,
+        "val": 13.98,
         "shape": "B",
         "migration": "lower",
         "high_quality": "poor",
@@ -667,14 +667,14 @@
           "accepted": false
         },
         "failed_auction_today": null,
-        "poc_rel": 0.98727,
-        "vah_rel": 1.00354,
-        "val_rel": 0.98232
+        "poc_rel": 1.00354,
+        "vah_rel": 1.00778,
+        "val_rel": 0.98868
       },
       "month": {
         "period": "2026-10",
         "poc": 15.07,
-        "vah": 15.5,
+        "vah": 15.52,
         "val": 14.77,
         "shape": "B",
         "migration": "lower",
@@ -689,7 +689,7 @@
         },
         "failed_auction_today": null,
         "poc_rel": 1.06577,
-        "vah_rel": 1.09618,
+        "vah_rel": 1.0976,
         "val_rel": 1.04455
       },
       "last_date": "2026-11-26",
@@ -815,7 +815,7 @@
       "month": {
         "period": "2026-10",
         "poc": 4083.34,
-        "vah": 4221.2,
+        "vah": 4216.32,
         "val": 3957.68,
         "shape": "B",
         "migration": "lower",

@@ -4,7 +4,7 @@
   "by": "week",
   "source": "yfinance:^STOXX50E",
   "kind": "tpo",
-  "generated_utc": "2026-11-26T17:42:22+00:00",
+  "generated_utc": "2026-11-26T20:09:06+00:00",
   "cfd_shift": 0.0,
   "summary": {
     "regime": "balance",
@@ -96,8 +96,8 @@
       "high": 6210.52002,
       "low": 6021.089844,
       "va_width": 98.0,
-      "va_share": 0.7105,
-      "total": 753.0,
+      "va_share": 0.7109,
+      "total": 754.0,
       "shape": "B",
       "hvn": [
         6047.0,
