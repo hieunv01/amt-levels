@@ -4,7 +4,7 @@
   "by": "week",
   "source": "yfinance:^HSCE",
   "kind": "tpo",
-  "generated_utc": "2026-11-26T03:03:34+00:00",
+  "generated_utc": "2026-11-26T04:08:20+00:00",
   "cfd_shift": 0.0,
   "summary": {
     "regime": "balance",
@@ -49,13 +49,13 @@
       "end": "2026-11-26 00:00:00",
       "row_size": 2.4425,
       "poc": 7521.67875,
-      "vah": 7547.325,
-      "val": 7437.4125,
+      "vah": 7557.095,
+      "val": 7447.1825,
       "high": 7602.299805,
       "low": 7366.649902,
       "va_width": 109.9125,
-      "va_share": 0.7169,
-      "total": 544.0,
+      "va_share": 0.7014,
+      "total": 566.0,
       "shape": "P",
       "hvn": [
         7524.12125
@@ -66,15 +66,15 @@
       "migration": "lower"
     },
     "last_date": "2026-11-26",
-    "last_close": 7579.58,
+    "last_close": 7547.12,
     "position": {
       "pos": "below",
-      "d_poc": -257.1812,
-      "d_vah": -448.9174,
-      "d_val": -104.5249,
-      "d_poc_atr": -1.8426,
-      "d_vah_atr": -3.2163,
-      "d_val_atr": -0.7489
+      "d_poc": -289.6411,
+      "d_vah": -481.3774,
+      "d_val": -136.9849,
+      "d_poc_atr": -2.0752,
+      "d_vah_atr": -3.4489,
+      "d_val_atr": -0.9814
     },
     "acceptance": {
       "side": "below",
@@ -234,13 +234,13 @@
       "end": "2026-11-26 00:00:00",
       "row_size": 2.4425,
       "poc": 7521.67875,
-      "vah": 7547.325,
-      "val": 7437.4125,
+      "vah": 7557.095,
+      "val": 7447.1825,
       "high": 7602.299805,
       "low": 7366.649902,
       "va_width": 109.9125,
-      "va_share": 0.7169,
-      "total": 544.0,
+      "va_share": 0.7014,
+      "total": 566.0,
       "shape": "P",
       "hvn": [
         7524.12125

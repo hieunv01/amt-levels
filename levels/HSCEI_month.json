@@ -4,7 +4,7 @@
   "by": "month",
   "source": "yfinance:^HSCE",
   "kind": "tpo",
-  "generated_utc": "2026-11-26T03:03:36+00:00",
+  "generated_utc": "2026-11-26T04:08:20+00:00",
   "cfd_shift": 0.0,
   "summary": {
     "regime": "balance",
@@ -48,8 +48,8 @@
       "high": 8391.679688,
       "low": 7366.649902,
       "va_width": 703.44,
-      "va_share": 0.7184,
-      "total": 618.0,
+      "va_share": 0.7138,
+      "total": 622.0,
       "shape": "B",
       "hvn": [
         7537.555,
@@ -67,15 +67,15 @@
       "migration": "outside"
     },
     "last_date": "2026-11-26",
-    "last_close": 7579.58,
+    "last_close": 7547.12,
     "position": {
       "pos": "below",
-      "d_poc": -495.3249,
-      "d_vah": -676.0699,
-      "d_val": -236.4199,
-      "d_poc_atr": -3.5488,
-      "d_vah_atr": -4.8438,
-      "d_val_atr": -1.6939
+      "d_poc": -527.7849,
+      "d_vah": -708.5299,
+      "d_val": -268.8799,
+      "d_poc_atr": -3.7814,
+      "d_vah_atr": -5.0764,
+      "d_val_atr": -1.9264
     },
     "acceptance": {
       "side": "below",
@@ -125,23 +125,23 @@
       "end": "2026-07-31 00:00:00",
       "row_size": 9.77,
       "poc": 8358.235,
-      "vah": 8480.36,
-      "val": 7767.15,
+      "vah": 8460.82,
+      "val": 7786.69,
       "high": 8701.790039,
       "low": 7586.0,
-      "va_width": 713.21,
-      "va_share": 0.7084,
-      "total": 823.0,
+      "va_width": 674.13,
+      "va_share": 0.7124,
+      "total": 932.0,
       "shape": "B",
       "hvn": [
         7781.805,
-        8104.215,
+        8055.365,
         8358.235,
         8602.485
       ],
       "lvn": [
         7918.585,
-        8192.145,
+        8172.605,
         8475.475
       ],
       "high_quality": "excess",
@@ -242,8 +242,8 @@
       "high": 8391.679688,
       "low": 7366.649902,
       "va_width": 703.44,
-      "va_share": 0.7184,
-      "total": 618.0,
+      "va_share": 0.7138,
+      "total": 622.0,
       "shape": "B",
       "hvn": [
         7537.555,

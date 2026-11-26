@@ -4,7 +4,7 @@
   "by": "week",
   "source": "yfinance:^AXJO",
   "kind": "tpo",
-  "generated_utc": "2026-11-26T03:03:29+00:00",
+  "generated_utc": "2026-11-26T04:08:15+00:00",
   "cfd_shift": 0.0,
   "summary": {
     "regime": "balance",
@@ -51,11 +51,11 @@
       "poc": 8686.116,
       "vah": 8778.744,
       "val": 8605.44,
-      "high": 8777.099609,
+      "high": 8777.700195,
       "low": 8528.5,
       "va_width": 173.304,
-      "va_share": 0.7002,
-      "total": 427.0,
+      "va_share": 0.7064,
+      "total": 436.0,
       "shape": "B",
       "hvn": [
         8586.516,
@@ -64,20 +64,20 @@
       "lvn": [
         8616.396
       ],
-      "high_quality": "excess",
+      "high_quality": "normal",
       "low_quality": "excess",
       "migration": "inside"
     },
     "last_date": "2026-11-26",
-    "last_close": 8777.1,
+    "last_close": 8775.6,
     "position": {
       "pos": "inside",
-      "d_poc": 178.6316,
-      "d_vah": -125.1484,
-      "d_val": 193.5716,
-      "d_poc_atr": 1.8443,
-      "d_vah_atr": -1.2921,
-      "d_val_atr": 1.9985
+      "d_poc": 177.1316,
+      "d_vah": -126.6484,
+      "d_val": 192.0716,
+      "d_poc_atr": 1.828,
+      "d_vah_atr": -1.307,
+      "d_val_atr": 1.9822
     },
     "acceptance": {
       "side": null,
@@ -85,7 +85,7 @@
       "accepted": false
     },
     "failed_auction_today": null,
-    "atr": 96.8571
+    "atr": 96.9
   },
   "profiles": [
     {
@@ -125,8 +125,8 @@
       "high": 8992.700195,
       "low": 8722.900391,
       "va_width": 177.288,
-      "va_share": 0.7018,
-      "total": 597.0,
+      "va_share": 0.7023,
+      "total": 598.0,
       "shape": "B",
       "hvn": [
         8803.644,
@@ -233,11 +233,11 @@
       "poc": 8686.116,
       "vah": 8778.744,
       "val": 8605.44,
-      "high": 8777.099609,
+      "high": 8777.700195,
       "low": 8528.5,
       "va_width": 173.304,
-      "va_share": 0.7002,
-      "total": 427.0,
+      "va_share": 0.7064,
+      "total": 436.0,
       "shape": "B",
       "hvn": [
         8586.516,
@@ -246,7 +246,7 @@
       "lvn": [
         8616.396
       ],
-      "high_quality": "excess",
+      "high_quality": "normal",
       "low_quality": "excess",
       "migration": "inside"
     }

@@ -4,7 +4,7 @@
   "by": "week",
   "source": "yfinance:HSTECH.HK",
   "kind": "tpo",
-  "generated_utc": "2026-11-26T03:03:36+00:00",
+  "generated_utc": "2026-11-26T04:08:21+00:00",
   "cfd_shift": 0.0,
   "summary": {
     "regime": "balance",
@@ -52,11 +52,11 @@
       "high": 3603.699951,
       "low": 3367.149902,
       "va_width": 90.0,
-      "va_share": 0.7077,
-      "total": 585.0,
+      "va_share": 0.7192,
+      "total": 609.0,
       "shape": "D",
       "hvn": [
-        3469.0
+        3471.0
       ],
       "lvn": [],
       "high_quality": "excess",
@@ -64,15 +64,15 @@
       "migration": "lower"
     },
     "last_date": "2026-11-26",
-    "last_close": 3502.64,
+    "last_close": 3472.78,
     "position": {
       "pos": "below",
-      "d_poc": -228.3601,
-      "d_vah": -349.3601,
-      "d_val": -143.3601,
-      "d_poc_atr": -1.9917,
-      "d_vah_atr": -3.0471,
-      "d_val_atr": -1.2504
+      "d_poc": -258.22,
+      "d_vah": -379.22,
+      "d_val": -173.22,
+      "d_poc_atr": -2.2522,
+      "d_vah_atr": -3.3075,
+      "d_val_atr": -1.5108
     },
     "acceptance": {
       "side": "below",
@@ -241,11 +241,11 @@
       "high": 3603.699951,
       "low": 3367.149902,
       "va_width": 90.0,
-      "va_share": 0.7077,
-      "total": 585.0,
+      "va_share": 0.7192,
+      "total": 609.0,
       "shape": "D",
       "hvn": [
-        3469.0
+        3471.0
       ],
       "lvn": [],
       "high_quality": "excess",

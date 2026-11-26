@@ -4,7 +4,7 @@
   "by": "month",
   "source": "yfinance:NKD=F",
   "kind": "volume",
-  "generated_utc": "2026-11-26T03:03:15+00:00",
+  "generated_utc": "2026-11-26T04:08:02+00:00",
   "cfd_shift": 0.0,
   "summary": {
     "regime": "balance",
@@ -21,8 +21,8 @@
       "high": 71540.0,
       "low": 61680.0,
       "va_width": 5500.0,
-      "va_share": 0.7002,
-      "total": 101302.0,
+      "va_share": 0.7007,
+      "total": 101502.0,
       "shape": "B",
       "hvn": [
         62775.0,
@@ -51,8 +51,8 @@
       "high": 63925.0,
       "low": 54335.0,
       "va_width": 4850.0,
-      "va_share": 0.7097,
-      "total": 171116.0,
+      "va_share": 0.7105,
+      "total": 171220.0,
       "shape": "B",
       "hvn": [
         58625.0,
@@ -67,15 +67,15 @@
       "migration": "lower"
     },
     "last_date": "2026-11-26",
-    "last_close": 57855.0,
+    "last_close": 57795.0,
     "position": {
       "pos": "below",
-      "d_poc": -6970.0,
-      "d_vah": -9295.0,
-      "d_val": -3795.0,
-      "d_poc_atr": -3.0182,
-      "d_vah_atr": -4.0251,
-      "d_val_atr": -1.6434
+      "d_poc": -7030.0,
+      "d_vah": -9355.0,
+      "d_val": -3855.0,
+      "d_poc_atr": -3.0372,
+      "d_vah_atr": -4.0417,
+      "d_val_atr": -1.6655
     },
     "acceptance": {
       "side": "below",
@@ -83,7 +83,7 @@
       "accepted": true
     },
     "failed_auction_today": null,
-    "atr": 2309.2857
+    "atr": 2314.6429
   },
   "profiles": [
     {
@@ -95,19 +95,21 @@
       "row_size": 50.0,
       "poc": 69475.0,
       "vah": 73600.0,
-      "val": 66350.0,
+      "val": 66050.0,
       "high": 73830.0,
       "low": 62440.0,
-      "va_width": 7250.0,
-      "va_share": 0.7032,
-      "total": 136701.0,
+      "va_width": 7550.0,
+      "va_share": 0.7039,
+      "total": 129930.0,
       "shape": "B",
       "hvn": [
+        64425.0,
         65675.0,
         66975.0,
-        69625.0
+        69575.0
       ],
       "lvn": [
+        65125.0,
         66225.0,
         67825.0
       ],
@@ -123,26 +125,25 @@
       "start": "2026-07-01 00:00:00",
       "end": "2026-07-31 00:00:00",
       "row_size": 50.0,
-      "poc": 68425.0,
-      "vah": 69250.0,
-      "val": 63800.0,
+      "poc": 67725.0,
+      "vah": 69450.0,
+      "val": 64300.0,
       "high": 72200.0,
       "low": 60575.0,
-      "va_width": 5450.0,
-      "va_share": 0.7062,
-      "total": 124302.0,
+      "va_width": 5150.0,
+      "va_share": 0.7057,
+      "total": 138951.0,
       "shape": "B",
       "hvn": [
         62625.0,
-        66175.0,
-        68625.0
+        67675.0
       ],
       "lvn": [
         63275.0
       ],
       "high_quality": "excess",
       "low_quality": "excess",
-      "tpo_poc": 65075.0,
+      "tpo_poc": 67825.0,
       "migration": "overlap_lower"
     },
     {
@@ -153,16 +154,16 @@
       "end": "2026-08-31 00:00:00",
       "row_size": 50.0,
       "poc": 66175.0,
-      "vah": 67300.0,
+      "vah": 67100.0,
       "val": 65050.0,
       "high": 69660.0,
       "low": 62165.0,
-      "va_width": 2250.0,
-      "va_share": 0.705,
-      "total": 79125.0,
+      "va_width": 2050.0,
+      "va_share": 0.7004,
+      "total": 87243.0,
       "shape": "D",
       "hvn": [
-        66075.0
+        66225.0
       ],
       "lvn": [],
       "high_quality": "excess",
@@ -183,8 +184,8 @@
       "high": 67845.0,
       "low": 62600.0,
       "va_width": 2350.0,
-      "va_share": 0.7154,
-      "total": 87850.0,
+      "va_share": 0.7102,
+      "total": 89272.0,
       "shape": "D",
       "hvn": [
         65225.0
@@ -208,8 +209,8 @@
       "high": 71540.0,
       "low": 61680.0,
       "va_width": 5500.0,
-      "va_share": 0.7002,
-      "total": 101302.0,
+      "va_share": 0.7007,
+      "total": 101502.0,
       "shape": "B",
       "hvn": [
         62775.0,
@@ -238,8 +239,8 @@
       "high": 63925.0,
       "low": 54335.0,
       "va_width": 4850.0,
-      "va_share": 0.7097,
-      "total": 171116.0,
+      "va_share": 0.7105,
+      "total": 171220.0,
       "shape": "B",
       "hvn": [
         58625.0,
