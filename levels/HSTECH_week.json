@@ -4,7 +4,7 @@
   "by": "week",
   "source": "yfinance:HSTECH.HK",
   "kind": "tpo",
-  "generated_utc": "2026-11-26T04:08:21+00:00",
+  "generated_utc": "2026-11-26T17:42:37+00:00",
   "cfd_shift": 0.0,
   "summary": {
     "regime": "balance",
@@ -47,13 +47,13 @@
       "end": "2026-11-26 00:00:00",
       "row_size": 2.0,
       "poc": 3473.0,
-      "vah": 3522.0,
+      "vah": 3518.0,
       "val": 3432.0,
       "high": 3603.699951,
       "low": 3367.149902,
-      "va_width": 90.0,
-      "va_share": 0.7192,
-      "total": 609.0,
+      "va_width": 86.0,
+      "va_share": 0.7107,
+      "total": 681.0,
       "shape": "D",
       "hvn": [
         3471.0
@@ -64,15 +64,15 @@
       "migration": "lower"
     },
     "last_date": "2026-11-26",
-    "last_close": 3472.78,
+    "last_close": 3417.38,
     "position": {
       "pos": "below",
-      "d_poc": -258.22,
-      "d_vah": -379.22,
-      "d_val": -173.22,
-      "d_poc_atr": -2.2522,
-      "d_vah_atr": -3.3075,
-      "d_val_atr": -1.5108
+      "d_poc": -313.6201,
+      "d_vah": -434.6201,
+      "d_val": -228.6201,
+      "d_poc_atr": -2.7354,
+      "d_vah_atr": -3.7907,
+      "d_val_atr": -1.994
     },
     "acceptance": {
       "side": "below",
@@ -236,13 +236,13 @@
       "end": "2026-11-26 00:00:00",
       "row_size": 2.0,
       "poc": 3473.0,
-      "vah": 3522.0,
+      "vah": 3518.0,
       "val": 3432.0,
       "high": 3603.699951,
       "low": 3367.149902,
-      "va_width": 90.0,
-      "va_share": 0.7192,
-      "total": 609.0,
+      "va_width": 86.0,
+      "va_share": 0.7107,
+      "total": 681.0,
       "shape": "D",
       "hvn": [
         3471.0

@@ -4,7 +4,7 @@
   "by": "month",
   "source": "yfinance:NQ=F",
   "kind": "volume",
-  "generated_utc": "2026-11-26T04:07:59+00:00",
+  "generated_utc": "2026-11-26T17:42:13+00:00",
   "cfd_shift": 0.0,
   "summary": {
     "regime": "balance",
@@ -49,8 +49,8 @@
       "high": 28969.0,
       "low": 24976.5,
       "va_width": 1925.0,
-      "va_share": 0.7038,
-      "total": 16012003.0,
+      "va_share": 0.7036,
+      "total": 16017536.0,
       "shape": "B",
       "hvn": [
         26237.5,
@@ -67,15 +67,15 @@
       "migration": "overlap_lower"
     },
     "last_date": "2026-11-26",
-    "last_close": 26331.25,
+    "last_close": 26389.75,
     "position": {
       "pos": "below",
-      "d_poc": -3481.25,
-      "d_vah": -4493.75,
-      "d_val": -2268.75,
-      "d_poc_atr": -3.314,
-      "d_vah_atr": -4.2779,
-      "d_val_atr": -2.1598
+      "d_poc": -3422.75,
+      "d_vah": -4435.25,
+      "d_val": -2210.25,
+      "d_poc_atr": -3.2444,
+      "d_vah_atr": -4.2041,
+      "d_val_atr": -2.0951
     },
     "acceptance": {
       "side": "below",
@@ -83,7 +83,7 @@
       "accepted": true
     },
     "failed_auction_today": null,
-    "atr": 1050.4643
+    "atr": 1054.9821
   },
   "profiles": [
     {
@@ -238,8 +238,8 @@
       "high": 28969.0,
       "low": 24976.5,
       "va_width": 1925.0,
-      "va_share": 0.7038,
-      "total": 16012003.0,
+      "va_share": 0.7036,
+      "total": 16017536.0,
       "shape": "B",
       "hvn": [
         26237.5,

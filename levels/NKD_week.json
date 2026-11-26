@@ -4,7 +4,7 @@
   "by": "week",
   "source": "yfinance:NKD=F",
   "kind": "volume",
-  "generated_utc": "2026-11-26T04:08:01+00:00",
+  "generated_utc": "2026-11-26T17:42:16+00:00",
   "cfd_shift": 0.0,
   "summary": {
     "regime": "balance",
@@ -43,18 +43,18 @@
       "start": "2026-11-23 00:00:00",
       "end": "2026-11-26 00:00:00",
       "row_size": 50.0,
-      "poc": 56225.0,
-      "vah": 58050.0,
-      "val": 56000.0,
+      "poc": 57875.0,
+      "vah": 58800.0,
+      "val": 56550.0,
       "high": 59340.0,
       "low": 55405.0,
-      "va_width": 2050.0,
-      "va_share": 0.7199,
-      "total": 26414.0,
+      "va_width": 2250.0,
+      "va_share": 0.7123,
+      "total": 26508.0,
       "shape": "B",
       "hvn": [
         56225.0,
-        57325.0
+        57875.0
       ],
       "lvn": [
         56725.0
@@ -65,15 +65,15 @@
       "migration": "overlap_lower"
     },
     "last_date": "2026-11-26",
-    "last_close": 57795.0,
+    "last_close": 57865.0,
     "position": {
       "pos": "inside",
-      "d_poc": -1380.0,
-      "d_vah": -2605.0,
-      "d_val": 845.0,
-      "d_poc_atr": -0.5962,
-      "d_vah_atr": -1.1254,
-      "d_val_atr": 0.3651
+      "d_poc": -1310.0,
+      "d_vah": -2535.0,
+      "d_val": 915.0,
+      "d_poc_atr": -0.566,
+      "d_vah_atr": -1.0952,
+      "d_val_atr": 0.3953
     },
     "acceptance": {
       "side": null,
@@ -234,18 +234,18 @@
       "start": "2026-11-23 00:00:00",
       "end": "2026-11-26 00:00:00",
       "row_size": 50.0,
-      "poc": 56225.0,
-      "vah": 58050.0,
-      "val": 56000.0,
+      "poc": 57875.0,
+      "vah": 58800.0,
+      "val": 56550.0,
       "high": 59340.0,
       "low": 55405.0,
-      "va_width": 2050.0,
-      "va_share": 0.7199,
-      "total": 26414.0,
+      "va_width": 2250.0,
+      "va_share": 0.7123,
+      "total": 26508.0,
       "shape": "B",
       "hvn": [
         56225.0,
-        57325.0
+        57875.0
       ],
       "lvn": [
         56725.0

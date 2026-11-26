@@ -4,7 +4,7 @@
   "by": "week",
   "source": "yfinance:^GDAXI",
   "kind": "tpo",
-  "generated_utc": "2026-11-26T04:08:06+00:00",
+  "generated_utc": "2026-11-26T17:42:20+00:00",
   "cfd_shift": 0.0,
   "summary": {
     "regime": "balance",
@@ -46,43 +46,44 @@
       "kind": "tpo",
       "complete": false,
       "start": "2026-11-23 00:00:00",
-      "end": "2026-11-25 00:00:00",
+      "end": "2026-11-26 00:00:00",
       "row_size": 10.0,
-      "poc": 25015.0,
-      "vah": 25240.0,
-      "val": 24930.0,
+      "poc": 25175.0,
+      "vah": 25260.0,
+      "val": 24970.0,
       "high": 25386.820312,
       "low": 24698.220703,
-      "va_width": 310.0,
-      "va_share": 0.7074,
-      "total": 475.0,
-      "shape": "D",
+      "va_width": 290.0,
+      "va_share": 0.7089,
+      "total": 584.0,
+      "shape": "P",
       "hvn": [
-        25015.0
+        25015.0,
+        25165.0
       ],
       "lvn": [],
       "high_quality": "normal",
       "low_quality": "excess",
       "migration": "lower"
     },
-    "last_date": "2026-11-25",
-    "last_close": 24736.99,
+    "last_date": "2026-11-26",
+    "last_close": 25230.7,
     "position": {
       "pos": "below",
-      "d_poc": -1998.0098,
-      "d_vah": -2063.0098,
-      "d_val": -853.0098,
-      "d_poc_atr": -4.5922,
-      "d_vah_atr": -4.7416,
-      "d_val_atr": -1.9606
+      "d_poc": -1504.3008,
+      "d_vah": -1569.3008,
+      "d_val": -359.3008,
+      "d_poc_atr": -3.5399,
+      "d_vah_atr": -3.6928,
+      "d_val_atr": -0.8455
     },
     "acceptance": {
       "side": "below",
-      "count": 3,
+      "count": 4,
       "accepted": true
     },
     "failed_auction_today": null,
-    "atr": 435.084
+    "atr": 424.9583
   },
   "profiles": [
     {
@@ -237,19 +238,20 @@
       "kind": "tpo",
       "complete": false,
       "start": "2026-11-23 00:00:00",
-      "end": "2026-11-25 00:00:00",
+      "end": "2026-11-26 00:00:00",
       "row_size": 10.0,
-      "poc": 25015.0,
-      "vah": 25240.0,
-      "val": 24930.0,
+      "poc": 25175.0,
+      "vah": 25260.0,
+      "val": 24970.0,
       "high": 25386.820312,
       "low": 24698.220703,
-      "va_width": 310.0,
-      "va_share": 0.7074,
-      "total": 475.0,
-      "shape": "D",
+      "va_width": 290.0,
+      "va_share": 0.7089,
+      "total": 584.0,
+      "shape": "P",
       "hvn": [
-        25015.0
+        25015.0,
+        25165.0
       ],
       "lvn": [],
       "high_quality": "normal",

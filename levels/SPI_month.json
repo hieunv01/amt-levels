@@ -4,7 +4,7 @@
   "by": "month",
   "source": "yfinance:^AXJO",
   "kind": "tpo",
-  "generated_utc": "2026-11-26T04:08:16+00:00",
+  "generated_utc": "2026-11-26T17:42:32+00:00",
   "cfd_shift": 0.0,
   "summary": {
     "regime": "balance",
@@ -46,8 +46,8 @@
       "high": 9159.799805,
       "low": 8528.5,
       "va_width": 410.352,
-      "va_share": 0.7073,
-      "total": 936.0,
+      "va_share": 0.7088,
+      "total": 941.0,
       "shape": "B",
       "hvn": [
         8595.48,
@@ -67,15 +67,15 @@
       "migration": "overlap_higher"
     },
     "last_date": "2026-11-26",
-    "last_close": 8775.6,
+    "last_close": 8763.8,
     "position": {
       "pos": "inside",
-      "d_poc": -11.1124,
-      "d_vah": -52.9444,
-      "d_val": 110.3996,
-      "d_poc_atr": -0.1147,
-      "d_vah_atr": -0.5464,
-      "d_val_atr": 1.1393
+      "d_poc": -22.9122,
+      "d_vah": -64.7442,
+      "d_val": 98.5998,
+      "d_poc_atr": -0.2365,
+      "d_vah_atr": -0.6682,
+      "d_val_atr": 1.0175
     },
     "acceptance": {
       "side": null,
@@ -237,8 +237,8 @@
       "high": 9159.799805,
       "low": 8528.5,
       "va_width": 410.352,
-      "va_share": 0.7073,
-      "total": 936.0,
+      "va_share": 0.7088,
+      "total": 941.0,
       "shape": "B",
       "hvn": [
         8595.48,

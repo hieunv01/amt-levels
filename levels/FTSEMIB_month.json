@@ -4,7 +4,7 @@
   "by": "month",
   "source": "yfinance:FTSEMIB.MI",
   "kind": "tpo",
-  "generated_utc": "2026-11-26T04:08:12+00:00",
+  "generated_utc": "2026-11-26T17:42:27+00:00",
   "cfd_shift": 0.0,
   "summary": {
     "regime": "balance",
@@ -38,16 +38,16 @@
       "kind": "tpo",
       "complete": false,
       "start": "2026-11-02 00:00:00",
-      "end": "2026-11-25 00:00:00",
+      "end": "2026-11-26 00:00:00",
       "row_size": 20.0,
       "poc": 51810.0,
       "vah": 52300.0,
-      "val": 49640.0,
+      "val": 49440.0,
       "high": 52282.429688,
       "low": 47307.488281,
-      "va_width": 2660.0,
-      "va_share": 0.7069,
-      "total": 1972.0,
+      "va_width": 2860.0,
+      "va_share": 0.7008,
+      "total": 2062.0,
       "shape": "B",
       "hvn": [
         48310.0,
@@ -57,7 +57,7 @@
         51810.0
       ],
       "lvn": [
-        48610.0,
+        48630.0,
         49370.0,
         51490.0
       ],
@@ -65,24 +65,24 @@
       "low_quality": "excess",
       "migration": "overlap_higher"
     },
-    "last_date": "2026-11-25",
-    "last_close": 47346.57,
+    "last_date": "2026-11-26",
+    "last_close": 48382.64,
     "position": {
       "pos": "below",
-      "d_poc": -2243.4297,
-      "d_vah": -3093.4297,
-      "d_val": -1393.4297,
-      "d_poc_atr": -2.6675,
-      "d_vah_atr": -3.6782,
-      "d_val_atr": -1.6568
+      "d_poc": -1207.3594,
+      "d_vah": -2057.3594,
+      "d_val": -357.3594,
+      "d_poc_atr": -1.3914,
+      "d_vah_atr": -2.371,
+      "d_val_atr": -0.4118
     },
     "acceptance": {
       "side": "below",
-      "count": 2,
+      "count": 3,
       "accepted": true
     },
     "failed_auction_today": null,
-    "atr": 841.0126
+    "atr": 867.6998
   },
   "profiles": [
     {
@@ -222,16 +222,16 @@
       "kind": "tpo",
       "complete": false,
       "start": "2026-11-02 00:00:00",
-      "end": "2026-11-25 00:00:00",
+      "end": "2026-11-26 00:00:00",
       "row_size": 20.0,
       "poc": 51810.0,
       "vah": 52300.0,
-      "val": 49640.0,
+      "val": 49440.0,
       "high": 52282.429688,
       "low": 47307.488281,
-      "va_width": 2660.0,
-      "va_share": 0.7069,
-      "total": 1972.0,
+      "va_width": 2860.0,
+      "va_share": 0.7008,
+      "total": 2062.0,
       "shape": "B",
       "hvn": [
         48310.0,
@@ -241,7 +241,7 @@
         51810.0
       ],
       "lvn": [
-        48610.0,
+        48630.0,
         49370.0,
         51490.0
       ],

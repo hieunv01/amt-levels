@@ -4,7 +4,7 @@
   "by": "week",
   "source": "yfinance:2823.HK",
   "kind": "volume",
-  "generated_utc": "2026-11-26T04:08:18+00:00",
+  "generated_utc": "2026-11-26T17:42:35+00:00",
   "cfd_shift": 0.0,
   "summary": {
     "regime": "imbalance_down",
@@ -43,34 +43,34 @@
       "start": "2026-11-23 00:00:00",
       "end": "2026-11-26 00:00:00",
       "row_size": 0.01,
-      "poc": 14.185,
-      "vah": 14.23,
-      "val": 14.05,
+      "poc": 14.145,
+      "vah": 14.21,
+      "val": 14.06,
       "high": 14.43,
       "low": 14.05,
-      "va_width": 0.18,
-      "va_share": 0.7026,
-      "total": 16517414.0,
+      "va_width": 0.15,
+      "va_share": 0.7081,
+      "total": 19706214.0,
       "shape": "b",
       "hvn": [
-        14.185
+        14.145
       ],
       "lvn": [],
       "high_quality": "poor",
       "low_quality": "normal",
-      "tpo_poc": 14.155,
+      "tpo_poc": 14.145,
       "migration": "overlap_higher"
     },
     "last_date": "2026-11-26",
-    "last_close": 14.15,
+    "last_close": 14.14,
     "position": {
       "pos": "inside",
-      "d_poc": 0.185,
-      "d_vah": -0.04,
-      "d_val": 0.26,
-      "d_poc_atr": 0.8436,
-      "d_vah_atr": -0.1824,
-      "d_val_atr": 1.1857
+      "d_poc": 0.175,
+      "d_vah": -0.05,
+      "d_val": 0.25,
+      "d_poc_atr": 0.798,
+      "d_vah_atr": -0.228,
+      "d_val_atr": 1.1401
     },
     "acceptance": {
       "side": null,
@@ -229,22 +229,22 @@
       "start": "2026-11-23 00:00:00",
       "end": "2026-11-26 00:00:00",
       "row_size": 0.01,
-      "poc": 14.185,
-      "vah": 14.23,
-      "val": 14.05,
+      "poc": 14.145,
+      "vah": 14.21,
+      "val": 14.06,
       "high": 14.43,
       "low": 14.05,
-      "va_width": 0.18,
-      "va_share": 0.7026,
-      "total": 16517414.0,
+      "va_width": 0.15,
+      "va_share": 0.7081,
+      "total": 19706214.0,
       "shape": "b",
       "hvn": [
-        14.185
+        14.145
       ],
       "lvn": [],
       "high_quality": "poor",
       "low_quality": "normal",
-      "tpo_poc": 14.155,
+      "tpo_poc": 14.145,
       "migration": "overlap_higher"
     }
   ]

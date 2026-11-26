@@ -4,7 +4,7 @@
   "by": "month",
   "source": "yfinance:^FTSE",
   "kind": "tpo",
-  "generated_utc": "2026-11-26T04:08:13+00:00",
+  "generated_utc": "2026-11-26T17:42:30+00:00",
   "cfd_shift": 0.0,
   "summary": {
     "regime": "balance",
@@ -40,7 +40,7 @@
       "kind": "tpo",
       "complete": false,
       "start": "2026-11-02 00:00:00",
-      "end": "2026-11-25 00:00:00",
+      "end": "2026-11-26 00:00:00",
       "row_size": 5.0,
       "poc": 10782.5,
       "vah": 10945.0,
@@ -48,38 +48,38 @@
       "high": 10962.910156,
       "low": 10330.080078,
       "va_width": 405.0,
-      "va_share": 0.7063,
-      "total": 1304.0,
+      "va_share": 0.7069,
+      "total": 1385.0,
       "shape": "B",
       "hvn": [
         10467.5,
         10792.5
       ],
       "lvn": [
-        10587.5
+        10547.5
       ],
       "high_quality": "excess",
       "low_quality": "excess",
       "migration": "overlap_higher"
     },
-    "last_date": "2026-11-25",
-    "last_close": 10433.66,
+    "last_date": "2026-11-26",
+    "last_close": 10611.77,
     "position": {
-      "pos": "below",
-      "d_poc": -303.8398,
-      "d_vah": -436.3398,
-      "d_val": -91.3398,
-      "d_poc_atr": -2.4429,
-      "d_vah_atr": -3.5082,
-      "d_val_atr": -0.7344
+      "pos": "inside",
+      "d_poc": -125.7305,
+      "d_vah": -258.2305,
+      "d_val": 86.7695,
+      "d_poc_atr": -1.0381,
+      "d_vah_atr": -2.1321,
+      "d_val_atr": 0.7164
     },
     "acceptance": {
-      "side": "below",
-      "count": 5,
-      "accepted": true
+      "side": null,
+      "count": 0,
+      "accepted": false
     },
-    "failed_auction_today": null,
-    "atr": 124.3763
+    "failed_auction_today": "failed_below",
+    "atr": 121.115
   },
   "profiles": [
     {
@@ -221,7 +221,7 @@
       "kind": "tpo",
       "complete": false,
       "start": "2026-11-02 00:00:00",
-      "end": "2026-11-25 00:00:00",
+      "end": "2026-11-26 00:00:00",
       "row_size": 5.0,
       "poc": 10782.5,
       "vah": 10945.0,
@@ -229,15 +229,15 @@
       "high": 10962.910156,
       "low": 10330.080078,
       "va_width": 405.0,
-      "va_share": 0.7063,
-      "total": 1304.0,
+      "va_share": 0.7069,
+      "total": 1385.0,
       "shape": "B",
       "hvn": [
         10467.5,
         10792.5
       ],
       "lvn": [
-        10587.5
+        10547.5
       ],
       "high_quality": "excess",
       "low_quality": "excess",
