@@ -20,7 +20,7 @@ pytest -q                      # 28 test, dữ liệu tổng hợp, không cần
 ## Chạy nhanh bằng dòng lệnh
 
 ```bash
-# NQ: profile tuần từ nến 30 phút của Yahoo, dịch mức giá sang CFD NAS100 đang ở 24890
+# NQ: profile tuần từ nến 30 phút của Yahoo, dịch mức giá sang CFD USTEC đang ở 24890
 python -m amt_profile --source yfinance --symbol NQ --by week --cfd-price 24890 \
        --json nq_week.json --plot nq_week.png
 
@@ -37,7 +37,7 @@ python -m amt_profile --source csv --file nkd_ticks.parquet --symbol NKD --by we
 python -m amt_profile --source csv --file es_30m.csv --symbol ES --by week --kind tpo
 
 # Từ MT5 (CFD của broker): chỉ có tick volume, xem phần cảnh báo
-python -m amt_profile --source mt5 --symbol GER40 --interval M5 --count 60000 --by week
+python -m amt_profile --source mt5 --symbol DE40 --interval M5 --count 60000 --by week
 ```
 
 Đầu ra (ví dụ trên dữ liệu tổng hợp):
@@ -77,11 +77,14 @@ Nguồn dữ liệu Yahoo theo từng mã (cột `kind` và `levels_in` trong JS
 
 | Mã | CFD | Yahoo | Profile |
 |---|---|---|---|
-| ES, NQ, YM, RTY, NKD | US500, NAS100, US30, US2000, JP225 | futures CME (`ES=F`…) | volume thật |
+| ES, NQ, YM, RTY, NKD | US500, USTEC, US30, US2000, JP225 | futures CME (`ES=F`…) | volume thật |
 | KOSPI, CSI300 | KOSPI, CHINA300 | `^KS11`, `000300.SS` (cash) | volume thật |
-| FDAX, FESX, Z, HSI, SPI | GER40, EU50, UK100, HK50, AUS200 | `^GDAXI`, `^STOXX50E`, `^FTSE`, `^HSI`, `^AXJO` (cash) | TPO, vì Yahoo trả volume = 0 |
+| FDAX, FESX, Z, HSI, SPI | DE40, STOXX50, UK100, HK50, AUS200 | `^GDAXI`, `^STOXX50E`, `^FTSE`, `^HSI`, `^AXJO` (cash) | TPO, vì Yahoo trả volume = 0 |
+| CAC40, IBEX35, FTSEMIB | F40, ES35, IT40 | `^FCHI`, `^IBEX`, `FTSEMIB.MI` (cash) | TPO, vì Yahoo trả volume = 0 |
 | HSCEI, HSTECH | CHINAH, HKTECH | `^HSCE`, `HSTECH.HK` (cash) | TPO, vì Yahoo trả volume = 0 |
 | A50 | CHINA50 | ETF `2823.HK` (iShares FTSE A50, HKD) | volume thật của ETF |
+
+Cột CFD theo tên mã của IC Markets. IC Markets không có CFD cho HSTECH, CSI300 và KOSPI; tên CFD của ba mã này chỉ để tham khảo cho broker khác.
 
 Với mã cash, mức giá là của chỉ số cash (khớp với CFD cash hơn là futures). Profile tháng dùng nến 1h nên TPO tháng thô hơn TPO tuần (nến 30 phút). File futures trong `data/` luôn được ưu tiên và tính bằng volume.
 

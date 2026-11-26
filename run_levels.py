@@ -6,7 +6,8 @@ Tùy chọn:  python run_levels.py --symbols NQ ES NKD --out out
 
 - Futures CME trên Yahoo (ES, NQ, YM, RTY, NKD, NIY): volume thật, tải tự động (cần: pip install yfinance).
 - KOSPI: chỉ số cash ^KS11, Yahoo có volume thật.
-- FDAX, FESX, Z, HSI, SPI: Yahoo chỉ có chỉ số cash (^GDAXI, ^STOXX50E, ^FTSE, ^HSI, ^AXJO) và volume = 0,
+- FDAX, FESX, CAC40, IBEX35, FTSEMIB, Z, HSI, SPI: Yahoo chỉ có chỉ số cash (^GDAXI, ^STOXX50E, ^FCHI,
+  ^IBEX, FTSEMIB.MI, ^FTSE, ^HSI, ^AXJO) và volume = 0,
   nên dùng profile TPO (thời gian tại giá). Mức giá là của chỉ số cash, không phải futures.
 - HSCEI (CHINAH), HSTECH (HKTECH): chỉ số cash ^HSCE, HSTECH.HK, volume = 0 nên dùng TPO.
 - CSI300 (CHINA300): chỉ số cash 000300.SS, có volume thật.
@@ -30,7 +31,7 @@ from amt_profile import daily_bars, load_csv, load_yfinance, preset, profiles_by
 from amt_profile.data import basis, yf_type
 from amt_profile.plot import plot_profiles
 
-DEFAULT_SYMBOLS = ["NQ", "ES", "NKD", "YM", "RTY", "FDAX", "FESX", "Z", "HSI", "SPI", "KOSPI",
+DEFAULT_SYMBOLS = ["NQ", "ES", "NKD", "YM", "RTY", "FDAX", "FESX", "CAC40", "IBEX35", "FTSEMIB", "Z", "HSI", "SPI", "KOSPI",
                    "A50", "HSCEI", "HSTECH", "CSI300"]
 
 

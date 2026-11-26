@@ -13,17 +13,24 @@ import pandas as pd
 
 # tz / roll_hour describe the exchange session; rth is the regular (day) session in local time.
 # tick is the exchange minimum price step; None = infer from data.
+# cfd = IC Markets symbol (Indices Product Specification Sheet, Oct 2025). IC Markets has no CFD on
+# HSTECH, CSI300 or KOSPI; the names given for those are placeholders for other brokers.
 INSTRUMENTS: dict[str, dict] = {
     # CME Globex: trading day starts 17:00 Chicago time
     "ES":   dict(tick=0.25, yf="ES=F",  tz="America/Chicago", roll_hour=17, rth=("08:30", "15:00"), cfd="US500"),
-    "NQ":   dict(tick=0.25, yf="NQ=F",  tz="America/Chicago", roll_hour=17, rth=("08:30", "15:00"), cfd="NAS100"),
+    "NQ":   dict(tick=0.25, yf="NQ=F",  tz="America/Chicago", roll_hour=17, rth=("08:30", "15:00"), cfd="USTEC"),
     "YM":   dict(tick=1.0,  yf="YM=F",  tz="America/Chicago", roll_hour=17, rth=("08:30", "15:00"), cfd="US30"),
     "NKD":  dict(tick=5.0,  yf="NKD=F", tz="America/Chicago", roll_hour=17, rth=None, cfd="JP225"),
     "NIY":  dict(tick=5.0,  yf="NIY=F", tz="America/Chicago", roll_hour=17, rth=None, cfd="JP225"),
     "RTY":  dict(tick=0.1,  yf="RTY=F", tz="America/Chicago", roll_hour=17, rth=("08:30", "15:00"), cfd="US2000"),
     # Eurex: calendar day in Berlin time
-    "FDAX": dict(tick=0.5,  yf="^GDAXI", yf_kind="tpo", tz="Europe/Berlin", roll_hour=0, rth=("09:00", "17:30"), cfd="GER40"),
-    "FESX": dict(tick=1.0,  yf="^STOXX50E", yf_kind="tpo", tz="Europe/Berlin", roll_hour=0, rth=("09:00", "17:30"), cfd="EU50"),
+    "FDAX": dict(tick=0.5,  yf="^GDAXI", yf_kind="tpo", tz="Europe/Berlin", roll_hour=0, rth=("09:00", "17:30"), cfd="DE40"),
+    "FESX": dict(tick=1.0,  yf="^STOXX50E", yf_kind="tpo", tz="Europe/Berlin", roll_hour=0, rth=("09:00", "17:30"), cfd="STOXX50"),
+    # Euronext Paris CAC 40, MEFF IBEX 35, Borsa Italiana FTSE MIB: Yahoo cash indices, volume = 0
+    "CAC40": dict(tick=0.5, yf="^FCHI", yf_kind="tpo", tz="Europe/Paris", roll_hour=0, rth=("09:00", "17:30"), cfd="F40"),
+    "IBEX35": dict(tick=1.0, yf="^IBEX", yf_kind="tpo", tz="Europe/Madrid", roll_hour=0, rth=("09:00", "17:30"), cfd="ES35"),
+    "FTSEMIB": dict(tick=5.0, yf="FTSEMIB.MI", yf_kind="tpo", tz="Europe/Rome", roll_hour=0, rth=("09:00", "17:30"),
+                    cfd="IT40"),
     # ICE FTSE 100
     "Z":    dict(tick=0.5,  yf="^FTSE", yf_kind="tpo", tz="Europe/London", roll_hour=0, rth=("08:00", "16:30"), cfd="UK100"),
     # Asia: tick left to inference, check your exchange spec
