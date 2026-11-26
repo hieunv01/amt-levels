@@ -4,7 +4,7 @@
   "by": "week",
   "source": "yfinance:^KS11",
   "kind": "volume",
-  "generated_utc": "2026-11-25T17:53:37+00:00",
+  "generated_utc": "2026-11-26T03:03:31+00:00",
   "cfd_shift": 0.0,
   "summary": {
     "regime": "imbalance_down",
@@ -14,23 +14,23 @@
       "complete": true,
       "start": "2026-11-16 00:00:00",
       "end": "2026-11-20 00:00:00",
-      "row_size": 3.9079999999999995,
-      "poc": 5012.01,
-      "vah": 5154.652,
-      "val": 4955.344,
+      "row_size": 4.885,
+      "poc": 5009.5675,
+      "vah": 5158.56,
+      "val": 4958.275,
       "high": 5327.990234,
       "low": 4831.689941,
-      "va_width": 199.308,
-      "va_share": 0.7014,
+      "va_width": 200.285,
+      "va_share": 0.7029,
       "total": 840483.0,
       "shape": "D",
       "hvn": [
-        5008.102
+        5009.5675
       ],
       "lvn": [],
       "high_quality": "excess",
       "low_quality": "normal",
-      "tpo_poc": 5015.918,
+      "tpo_poc": 5009.5675,
       "migration": "lower"
     },
     "developing": {
@@ -38,47 +38,47 @@
       "kind": "volume",
       "complete": false,
       "start": "2026-11-23 00:00:00",
-      "end": "2026-11-25 00:00:00",
-      "row_size": 3.9079999999999995,
-      "poc": 4718.91,
-      "vah": 4931.896,
-      "val": 4584.084,
+      "end": "2026-11-26 00:00:00",
+      "row_size": 4.885,
+      "poc": 4721.3525,
+      "vah": 4821.495,
+      "val": 4601.67,
       "high": 5065.740234,
       "low": 4586.799805,
-      "va_width": 347.812,
-      "va_share": 0.7022,
-      "total": 477870.0,
+      "va_width": 219.825,
+      "va_share": 0.7061,
+      "total": 562056.0,
       "shape": "B",
       "hvn": [
-        4718.91,
-        5043.274
+        4721.3525,
+        5043.7625
       ],
       "lvn": [
-        4840.058
+        4838.5925
       ],
-      "high_quality": "excess",
+      "high_quality": "normal",
       "low_quality": "excess",
-      "tpo_poc": 4718.91,
+      "tpo_poc": 4721.3525,
       "migration": "lower"
     },
-    "last_date": "2026-11-25",
-    "last_close": 4701.9,
+    "last_date": "2026-11-26",
+    "last_close": 4751.49,
     "position": {
       "pos": "below",
-      "d_poc": -310.1101,
-      "d_vah": -452.7521,
-      "d_val": -253.4441,
-      "d_poc_atr": -1.2809,
-      "d_vah_atr": -1.8701,
-      "d_val_atr": -1.0468
+      "d_poc": -258.0773,
+      "d_vah": -407.0698,
+      "d_val": -206.7848,
+      "d_poc_atr": -1.1748,
+      "d_vah_atr": -1.853,
+      "d_val_atr": -0.9413
     },
     "acceptance": {
       "side": "below",
-      "count": 1,
-      "accepted": false
+      "count": 2,
+      "accepted": true
     },
     "failed_auction_today": null,
-    "atr": 242.1059
+    "atr": 219.6816
   },
   "profiles": [
     {
@@ -87,23 +87,23 @@
       "complete": true,
       "start": "2026-10-19 00:00:00",
       "end": "2026-10-23 00:00:00",
-      "row_size": 3.9079999999999995,
-      "poc": 5703.726,
-      "vah": 5736.944,
-      "val": 5514.188,
+      "row_size": 4.885,
+      "poc": 5703.2375,
+      "vah": 5734.99,
+      "val": 5515.165,
       "high": 5816.430176,
       "low": 5305.97998,
-      "va_width": 222.756,
-      "va_share": 0.7133,
+      "va_width": 219.825,
+      "va_share": 0.7069,
       "total": 1042335.0,
       "shape": "P",
       "hvn": [
-        5699.818
+        5698.3525
       ],
       "lvn": [],
       "high_quality": "normal",
       "low_quality": "excess",
-      "tpo_poc": 5688.094,
+      "tpo_poc": 5688.5825,
       "migration": "inside"
     },
     {
@@ -112,28 +112,28 @@
       "complete": true,
       "start": "2026-10-26 00:00:00",
       "end": "2026-10-30 00:00:00",
-      "row_size": 3.9079999999999995,
-      "poc": 5676.37,
+      "row_size": 4.885,
+      "poc": 5673.9275,
       "vah": 5998.78,
-      "val": 5596.256,
+      "val": 5603.095,
       "high": 6100.109863,
       "low": 5455.109863,
-      "va_width": 402.524,
-      "va_share": 0.711,
+      "va_width": 395.685,
+      "va_share": 0.7105,
       "total": 961070.0,
       "shape": "B",
       "hvn": [
-        5508.326,
-        5668.554,
-        5989.01
+        5507.8375,
+        5669.0425,
+        5986.5675
       ],
       "lvn": [
-        5582.578,
-        5801.426
+        5581.1125,
+        5800.9375
       ],
       "high_quality": "poor",
-      "low_quality": "excess",
-      "tpo_poc": 5676.37,
+      "low_quality": "normal",
+      "tpo_poc": 5673.9275,
       "migration": "overlap_higher"
     },
     {
@@ -142,28 +142,28 @@
       "complete": true,
       "start": "2026-11-02 00:00:00",
       "end": "2026-11-06 00:00:00",
-      "row_size": 3.9079999999999995,
-      "poc": 5652.922,
-      "vah": 5858.092,
-      "val": 5330.512,
+      "row_size": 4.885,
+      "poc": 5654.3875,
+      "vah": 5862.0,
+      "val": 5329.535,
       "high": 5910.830078,
       "low": 4918.560059,
-      "va_width": 527.58,
-      "va_share": 0.7024,
+      "va_width": 532.465,
+      "va_share": 0.7043,
       "total": 1064610.0,
       "shape": "B",
       "hvn": [
-        5105.802,
-        5457.522,
-        5645.106
+        5102.3825,
+        5454.1025,
+        5649.5025
       ],
       "lvn": [
-        5242.582,
-        5594.302
+        5244.0475,
+        5590.8825
       ],
-      "high_quality": "normal",
-      "low_quality": "excess",
-      "tpo_poc": 5449.706,
+      "high_quality": "poor",
+      "low_quality": "normal",
+      "tpo_poc": 5449.2175,
       "migration": "overlap_lower"
     },
     {
@@ -172,27 +172,27 @@
       "complete": true,
       "start": "2026-11-09 00:00:00",
       "end": "2026-11-13 00:00:00",
-      "row_size": 3.9079999999999995,
-      "poc": 5226.95,
-      "vah": 5455.568,
-      "val": 5193.732,
+      "row_size": 4.885,
+      "poc": 5224.5075,
+      "vah": 5451.66,
+      "val": 5192.755,
       "high": 5504.439941,
       "low": 4990.660156,
-      "va_width": 261.836,
-      "va_share": 0.7131,
+      "va_width": 258.905,
+      "va_share": 0.704,
       "total": 1021200.0,
       "shape": "B",
       "hvn": [
-        5105.802,
-        5234.766,
-        5465.338
+        5107.2675,
+        5224.5075,
+        5463.8725
       ],
       "lvn": [
-        5168.33
+        5165.8875
       ],
       "high_quality": "excess",
       "low_quality": "excess",
-      "tpo_poc": 5226.95,
+      "tpo_poc": 5224.5075,
       "migration": "overlap_lower"
     },
     {
@@ -201,23 +201,23 @@
       "complete": true,
       "start": "2026-11-16 00:00:00",
       "end": "2026-11-20 00:00:00",
-      "row_size": 3.9079999999999995,
-      "poc": 5012.01,
-      "vah": 5154.652,
-      "val": 4955.344,
+      "row_size": 4.885,
+      "poc": 5009.5675,
+      "vah": 5158.56,
+      "val": 4958.275,
       "high": 5327.990234,
       "low": 4831.689941,
-      "va_width": 199.308,
-      "va_share": 0.7014,
+      "va_width": 200.285,
+      "va_share": 0.7029,
       "total": 840483.0,
       "shape": "D",
       "hvn": [
-        5008.102
+        5009.5675
       ],
       "lvn": [],
       "high_quality": "excess",
       "low_quality": "normal",
-      "tpo_poc": 5015.918,
+      "tpo_poc": 5009.5675,
       "migration": "lower"
     },
     {
@@ -225,27 +225,27 @@
       "kind": "volume",
       "complete": false,
       "start": "2026-11-23 00:00:00",
-      "end": "2026-11-25 00:00:00",
-      "row_size": 3.9079999999999995,
-      "poc": 4718.91,
-      "vah": 4931.896,
-      "val": 4584.084,
+      "end": "2026-11-26 00:00:00",
+      "row_size": 4.885,
+      "poc": 4721.3525,
+      "vah": 4821.495,
+      "val": 4601.67,
       "high": 5065.740234,
       "low": 4586.799805,
-      "va_width": 347.812,
-      "va_share": 0.7022,
-      "total": 477870.0,
+      "va_width": 219.825,
+      "va_share": 0.7061,
+      "total": 562056.0,
       "shape": "B",
       "hvn": [
-        4718.91,
-        5043.274
+        4721.3525,
+        5043.7625
       ],
       "lvn": [
-        4840.058
+        4838.5925
       ],
-      "high_quality": "excess",
+      "high_quality": "normal",
       "low_quality": "excess",
-      "tpo_poc": 4718.91,
+      "tpo_poc": 4721.3525,
       "migration": "lower"
     }
   ]

@@ -1,0 +1,255 @@
+{
+  "symbol": "FTSEMIB",
+  "cfd": "IT40",
+  "by": "week",
+  "source": "yfinance:FTSEMIB.MI",
+  "kind": "tpo",
+  "generated_utc": "2026-11-26T03:03:25+00:00",
+  "cfd_shift": 0.0,
+  "summary": {
+    "regime": "balance",
+    "reference": {
+      "period": "2026-11-16/2026-11-22",
+      "kind": "tpo",
+      "complete": true,
+      "start": "2026-11-16 00:00:00",
+      "end": "2026-11-20 00:00:00",
+      "row_size": 20.0,
+      "poc": 51710.0,
+      "vah": 51920.0,
+      "val": 50180.0,
+      "high": 51910.210938,
+      "low": 48688.640625,
+      "va_width": 1740.0,
+      "va_share": 0.7,
+      "total": 740.0,
+      "shape": "B",
+      "hvn": [
+        48850.0,
+        50550.0,
+        51210.0,
+        51690.0
+      ],
+      "lvn": [
+        49610.0,
+        51050.0,
+        51450.0
+      ],
+      "high_quality": "normal",
+      "low_quality": "excess",
+      "migration": "overlap_lower"
+    },
+    "developing": {
+      "period": "2026-11-23/2026-11-29",
+      "kind": "tpo",
+      "complete": false,
+      "start": "2026-11-23 00:00:00",
+      "end": "2026-11-25 00:00:00",
+      "row_size": 20.0,
+      "poc": 48330.0,
+      "vah": 48900.0,
+      "val": 47960.0,
+      "high": 49027.058594,
+      "low": 47307.488281,
+      "va_width": 940.0,
+      "va_share": 0.7162,
+      "total": 518.0,
+      "shape": "B",
+      "hvn": [
+        47710.0,
+        48330.0
+      ],
+      "lvn": [
+        47850.0
+      ],
+      "high_quality": "poor",
+      "low_quality": "excess",
+      "migration": "lower"
+    },
+    "last_date": "2026-11-25",
+    "last_close": 47346.57,
+    "position": {
+      "pos": "below",
+      "d_poc": -4363.4297,
+      "d_vah": -4573.4297,
+      "d_val": -2833.4297,
+      "d_poc_atr": -5.1883,
+      "d_vah_atr": -5.438,
+      "d_val_atr": -3.3691
+    },
+    "acceptance": {
+      "side": "below",
+      "count": 3,
+      "accepted": true
+    },
+    "failed_auction_today": null,
+    "atr": 841.0126
+  },
+  "profiles": [
+    {
+      "period": "2026-10-19/2026-10-25",
+      "kind": "tpo",
+      "complete": true,
+      "start": "2026-10-19 00:00:00",
+      "end": "2026-10-23 00:00:00",
+      "row_size": 20.0,
+      "poc": 48770.0,
+      "vah": 49380.0,
+      "val": 48480.0,
+      "high": 49728.410156,
+      "low": 48024.269531,
+      "va_width": 900.0,
+      "va_share": 0.7121,
+      "total": 719.0,
+      "shape": "B",
+      "hvn": [
+        48150.0,
+        48810.0,
+        49590.0
+      ],
+      "lvn": [
+        48450.0,
+        49430.0
+      ],
+      "high_quality": "poor",
+      "low_quality": "normal",
+      "migration": "lower"
+    },
+    {
+      "period": "2026-10-26/2026-11-01",
+      "kind": "tpo",
+      "complete": true,
+      "start": "2026-10-26 00:00:00",
+      "end": "2026-10-30 00:00:00",
+      "row_size": 20.0,
+      "poc": 49570.0,
+      "vah": 49860.0,
+      "val": 49120.0,
+      "high": 50144.460938,
+      "low": 48674.929688,
+      "va_width": 740.0,
+      "va_share": 0.7092,
+      "total": 650.0,
+      "shape": "B",
+      "hvn": [
+        49070.0,
+        49590.0
+      ],
+      "lvn": [
+        49230.0
+      ],
+      "high_quality": "normal",
+      "low_quality": "excess",
+      "migration": "overlap_higher"
+    },
+    {
+      "period": "2026-11-02/2026-11-08",
+      "kind": "tpo",
+      "complete": true,
+      "start": "2026-11-02 00:00:00",
+      "end": "2026-11-06 00:00:00",
+      "row_size": 20.0,
+      "poc": 49990.0,
+      "vah": 50760.0,
+      "val": 49460.0,
+      "high": 51371.488281,
+      "low": 49294.28125,
+      "va_width": 1300.0,
+      "va_share": 0.7027,
+      "total": 824.0,
+      "shape": "B",
+      "hvn": [
+        49770.0,
+        51150.0
+      ],
+      "lvn": [
+        50690.0
+      ],
+      "high_quality": "poor",
+      "low_quality": "excess",
+      "migration": "overlap_higher"
+    },
+    {
+      "period": "2026-11-09/2026-11-15",
+      "kind": "tpo",
+      "complete": true,
+      "start": "2026-11-09 00:00:00",
+      "end": "2026-11-13 00:00:00",
+      "row_size": 20.0,
+      "poc": 51790.0,
+      "vah": 52200.0,
+      "val": 51660.0,
+      "high": 52282.429688,
+      "low": 50130.769531,
+      "va_width": 540.0,
+      "va_share": 0.7227,
+      "total": 631.0,
+      "shape": "P",
+      "hvn": [
+        51790.0
+      ],
+      "lvn": [],
+      "high_quality": "excess",
+      "low_quality": "excess",
+      "migration": "higher"
+    },
+    {
+      "period": "2026-11-16/2026-11-22",
+      "kind": "tpo",
+      "complete": true,
+      "start": "2026-11-16 00:00:00",
+      "end": "2026-11-20 00:00:00",
+      "row_size": 20.0,
+      "poc": 51710.0,
+      "vah": 51920.0,
+      "val": 50180.0,
+      "high": 51910.210938,
+      "low": 48688.640625,
+      "va_width": 1740.0,
+      "va_share": 0.7,
+      "total": 740.0,
+      "shape": "B",
+      "hvn": [
+        48850.0,
+        50550.0,
+        51210.0,
+        51690.0
+      ],
+      "lvn": [
+        49610.0,
+        51050.0,
+        51450.0
+      ],
+      "high_quality": "normal",
+      "low_quality": "excess",
+      "migration": "overlap_lower"
+    },
+    {
+      "period": "2026-11-23/2026-11-29",
+      "kind": "tpo",
+      "complete": false,
+      "start": "2026-11-23 00:00:00",
+      "end": "2026-11-25 00:00:00",
+      "row_size": 20.0,
+      "poc": 48330.0,
+      "vah": 48900.0,
+      "val": 47960.0,
+      "high": 49027.058594,
+      "low": 47307.488281,
+      "va_width": 940.0,
+      "va_share": 0.7162,
+      "total": 518.0,
+      "shape": "B",
+      "hvn": [
+        47710.0,
+        48330.0
+      ],
+      "lvn": [
+        47850.0
+      ],
+      "high_quality": "poor",
+      "low_quality": "excess",
+      "migration": "lower"
+    }
+  ]
+}
