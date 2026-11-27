@@ -4,7 +4,7 @@
   "by": "month",
   "source": "yfinance:RTY=F",
   "kind": "volume",
-  "generated_utc": "2026-11-26T20:09:05+00:00",
+  "generated_utc": "2026-11-27T04:12:51+00:00",
   "cfd_shift": 0.0,
   "summary": {
     "regime": "balance",
@@ -21,8 +21,8 @@
       "high": 2887.199951,
       "low": 2728.899902,
       "va_width": 90.0,
-      "va_share": 0.71,
-      "total": 4145251.0,
+      "va_share": 0.7074,
+      "total": 4150694.0,
       "shape": "B",
       "hvn": [
         2743.0,
@@ -51,8 +51,8 @@
       "high": 2888.699951,
       "low": 2578.899902,
       "va_width": 174.0,
-      "va_share": 0.7041,
-      "total": 3998444.0,
+      "va_share": 0.7054,
+      "total": 4015153.0,
       "shape": "B",
       "hvn": [
         2669.0,
@@ -60,7 +60,7 @@
         2827.0
       ],
       "lvn": [
-        2693.0,
+        2699.0,
         2799.0
       ],
       "high_quality": "poor",
@@ -75,9 +75,9 @@
       "d_poc": -77.3,
       "d_vah": -130.3,
       "d_val": -40.3,
-      "d_poc_atr": -1.1682,
-      "d_vah_atr": -1.9691,
-      "d_val_atr": -0.609
+      "d_poc_atr": -1.1692,
+      "d_vah_atr": -1.9708,
+      "d_val_atr": -0.6096
     },
     "acceptance": {
       "side": "below",
@@ -85,7 +85,7 @@
       "accepted": true
     },
     "failed_auction_today": null,
-    "atr": 66.1714
+    "atr": 66.1143
   },
   "profiles": [
     {
@@ -101,8 +101,8 @@
       "high": 3062.399902,
       "low": 2793.699951,
       "va_width": 146.0,
-      "va_share": 0.708,
-      "total": 4420692.0,
+      "va_share": 0.7094,
+      "total": 4411370.0,
       "shape": "B",
       "hvn": [
         2865.0,
@@ -125,12 +125,12 @@
       "row_size": 2.0,
       "poc": 2965.0,
       "vah": 3002.0,
-      "val": 2932.0,
+      "val": 2936.0,
       "high": 3068.399902,
       "low": 2902.300049,
-      "va_width": 70.0,
-      "va_share": 0.7199,
-      "total": 3061410.0,
+      "va_width": 66.0,
+      "va_share": 0.7222,
+      "total": 3434405.0,
       "shape": "D",
       "hvn": [
         2967.0
@@ -138,7 +138,7 @@
       "lvn": [],
       "high_quality": "excess",
       "low_quality": "normal",
-      "tpo_poc": 2971.0,
+      "tpo_poc": 2969.0,
       "migration": "inside"
     },
     {
@@ -154,8 +154,8 @@
       "high": 3079.899902,
       "low": 2946.100098,
       "va_width": 62.0,
-      "va_share": 0.7362,
-      "total": 2688350.0,
+      "va_share": 0.7375,
+      "total": 2696133.0,
       "shape": "B",
       "hvn": [
         2953.0,
@@ -179,16 +179,16 @@
       "row_size": 2.0,
       "poc": 2909.0,
       "vah": 2930.0,
-      "val": 2836.0,
+      "val": 2832.0,
       "high": 2983.300049,
       "low": 2811.899902,
-      "va_width": 94.0,
-      "va_share": 0.7187,
-      "total": 4013964.0,
+      "va_width": 98.0,
+      "va_share": 0.714,
+      "total": 4115257.0,
       "shape": "B",
       "hvn": [
-        2909.0,
-        2969.0
+        2911.0,
+        2973.0
       ],
       "lvn": [
         2935.0
@@ -211,8 +211,8 @@
       "high": 2887.199951,
       "low": 2728.899902,
       "va_width": 90.0,
-      "va_share": 0.71,
-      "total": 4145251.0,
+      "va_share": 0.7074,
+      "total": 4150694.0,
       "shape": "B",
       "hvn": [
         2743.0,
@@ -241,8 +241,8 @@
       "high": 2888.699951,
       "low": 2578.899902,
       "va_width": 174.0,
-      "va_share": 0.7041,
-      "total": 3998444.0,
+      "va_share": 0.7054,
+      "total": 4015153.0,
       "shape": "B",
       "hvn": [
         2669.0,
@@ -250,7 +250,7 @@
         2827.0
       ],
       "lvn": [
-        2693.0,
+        2699.0,
         2799.0
       ],
       "high_quality": "poor",

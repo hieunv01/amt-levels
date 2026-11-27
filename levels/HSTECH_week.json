@@ -4,7 +4,7 @@
   "by": "week",
   "source": "yfinance:HSTECH.HK",
   "kind": "tpo",
-  "generated_utc": "2026-11-26T20:09:17+00:00",
+  "generated_utc": "2026-11-27T04:13:02+00:00",
   "cfd_shift": 0.0,
   "summary": {
     "regime": "balance",
@@ -44,16 +44,16 @@
       "kind": "tpo",
       "complete": false,
       "start": "2026-11-23 00:00:00",
-      "end": "2026-11-26 00:00:00",
+      "end": "2026-11-27 00:00:00",
       "row_size": 2.0,
       "poc": 3473.0,
-      "vah": 3518.0,
-      "val": 3432.0,
+      "vah": 3522.0,
+      "val": 3436.0,
       "high": 3603.699951,
       "low": 3367.149902,
       "va_width": 86.0,
-      "va_share": 0.7107,
-      "total": 681.0,
+      "va_share": 0.724,
+      "total": 761.0,
       "shape": "D",
       "hvn": [
         3471.0
@@ -63,24 +63,24 @@
       "low_quality": "excess",
       "migration": "lower"
     },
-    "last_date": "2026-11-26",
-    "last_close": 3417.38,
+    "last_date": "2026-11-27",
+    "last_close": 3529.88,
     "position": {
       "pos": "below",
-      "d_poc": -313.6201,
-      "d_vah": -434.6201,
-      "d_val": -228.6201,
-      "d_poc_atr": -2.7354,
-      "d_vah_atr": -3.7907,
-      "d_val_atr": -1.994
+      "d_poc": -201.1201,
+      "d_vah": -322.1201,
+      "d_val": -116.1201,
+      "d_poc_atr": -1.7641,
+      "d_vah_atr": -2.8254,
+      "d_val_atr": -1.0185
     },
     "acceptance": {
       "side": "below",
-      "count": 4,
+      "count": 5,
       "accepted": true
     },
     "failed_auction_today": null,
-    "atr": 114.6543
+    "atr": 114.01
   },
   "profiles": [
     {
@@ -233,16 +233,16 @@
       "kind": "tpo",
       "complete": false,
       "start": "2026-11-23 00:00:00",
-      "end": "2026-11-26 00:00:00",
+      "end": "2026-11-27 00:00:00",
       "row_size": 2.0,
       "poc": 3473.0,
-      "vah": 3518.0,
-      "val": 3432.0,
+      "vah": 3522.0,
+      "val": 3436.0,
       "high": 3603.699951,
       "low": 3367.149902,
       "va_width": 86.0,
-      "va_share": 0.7107,
-      "total": 681.0,
+      "va_share": 0.724,
+      "total": 761.0,
       "shape": "D",
       "hvn": [
         3471.0
