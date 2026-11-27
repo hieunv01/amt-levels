@@ -4,7 +4,7 @@
   "by": "week",
   "source": "yfinance:^HSI",
   "kind": "tpo",
-  "generated_utc": "2026-11-27T17:25:58+00:00",
+  "generated_utc": "2026-11-27T19:56:10+00:00",
   "cfd_shift": 0.0,
   "summary": {
     "regime": "balance",
@@ -54,8 +54,8 @@
       "high": 22781.029297,
       "low": 21915.880859,
       "va_width": 362.7,
-      "va_share": 0.7059,
-      "total": 493.0,
+      "va_share": 0.7065,
+      "total": 494.0,
       "shape": "D",
       "hvn": [
         22376.25
@@ -238,8 +238,8 @@
       "high": 22781.029297,
       "low": 21915.880859,
       "va_width": 362.7,
-      "va_share": 0.7059,
-      "total": 493.0,
+      "va_share": 0.7065,
+      "total": 494.0,
       "shape": "D",
       "hvn": [
         22376.25

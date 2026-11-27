@@ -4,7 +4,7 @@
   "by": "month",
   "source": "yfinance:^HSI",
   "kind": "tpo",
-  "generated_utc": "2026-11-27T17:25:58+00:00",
+  "generated_utc": "2026-11-27T19:56:11+00:00",
   "cfd_shift": 0.0,
   "summary": {
     "regime": "balance",
@@ -124,28 +124,28 @@
       "end": "2026-07-31 00:00:00",
       "row_size": 19.54,
       "poc": 25118.67,
-      "vah": 25441.08,
-      "val": 23467.54,
+      "vah": 25323.84,
+      "val": 23545.7,
       "high": 25971.630859,
       "low": 22953.699219,
-      "va_width": 1973.54,
-      "va_share": 0.7185,
-      "total": 1023.0,
+      "va_width": 1778.14,
+      "va_share": 0.7095,
+      "total": 1160.0,
       "shape": "B",
       "hvn": [
         23516.39,
-        24141.67,
+        24180.75,
         25138.21,
         25802.57
       ],
       "lvn": [
         23750.87,
-        24669.25,
+        24552.01,
         25411.77
       ],
       "high_quality": "excess",
       "low_quality": "normal",
-      "migration": "overlap_lower"
+      "migration": "inside"
     },
     {
       "period": "2026-08",

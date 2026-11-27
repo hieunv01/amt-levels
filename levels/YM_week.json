@@ -4,7 +4,7 @@
   "by": "week",
   "source": "yfinance:YM=F",
   "kind": "volume",
-  "generated_utc": "2026-11-27T17:25:51+00:00",
+  "generated_utc": "2026-11-27T19:56:00+00:00",
   "cfd_shift": 0.0,
   "summary": {
     "regime": "balance",
@@ -21,8 +21,8 @@
       "high": 52559.0,
       "low": 48054.0,
       "va_width": 2540.0,
-      "va_share": 0.7034,
-      "total": 535065.0,
+      "va_share": 0.7042,
+      "total": 534486.0,
       "shape": "B",
       "hvn": [
         49170.0,
@@ -51,32 +51,32 @@
       "row_size": 20.0,
       "poc": 49750.0,
       "vah": 50080.0,
-      "val": 49180.0,
-      "high": 50863.0,
+      "val": 49140.0,
+      "high": 50879.0,
       "low": 48433.0,
-      "va_width": 900.0,
-      "va_share": 0.7071,
-      "total": 341176.0,
+      "va_width": 940.0,
+      "va_share": 0.7137,
+      "total": 346456.0,
       "shape": "D",
       "hvn": [
         49730.0
       ],
       "lvn": [],
-      "high_quality": "excess",
+      "high_quality": "poor",
       "low_quality": "excess",
       "tpo_poc": 49770.0,
       "migration": "inside"
     },
     "last_date": "2026-11-27",
-    "last_close": 50776.0,
+    "last_close": 50851.0,
     "position": {
       "pos": "inside",
-      "d_poc": 1606.0,
-      "d_vah": -484.0,
-      "d_val": 2056.0,
-      "d_poc_atr": 1.6795,
-      "d_vah_atr": -0.5062,
-      "d_val_atr": 2.1501
+      "d_poc": 1681.0,
+      "d_vah": -409.0,
+      "d_val": 2131.0,
+      "d_poc_atr": 1.7555,
+      "d_vah_atr": -0.4271,
+      "d_val_atr": 2.2254
     },
     "acceptance": {
       "side": null,
@@ -84,7 +84,7 @@
       "accepted": false
     },
     "failed_auction_today": null,
-    "atr": 956.2143
+    "atr": 957.5714
   },
   "profiles": [
     {
@@ -100,8 +100,8 @@
       "high": 53168.0,
       "low": 52049.0,
       "va_width": 660.0,
-      "va_share": 0.7199,
-      "total": 457991.0,
+      "va_share": 0.7218,
+      "total": 456656.0,
       "shape": "B",
       "hvn": [
         52210.0,
@@ -129,7 +129,7 @@
       "low": 51701.0,
       "va_width": 340.0,
       "va_share": 0.7014,
-      "total": 450471.0,
+      "total": 450669.0,
       "shape": "D",
       "hvn": [
         52550.0
@@ -154,7 +154,7 @@
       "low": 50891.0,
       "va_width": 1620.0,
       "va_share": 0.7024,
-      "total": 648721.0,
+      "total": 648720.0,
       "shape": "B",
       "hvn": [
         51870.0,
@@ -183,8 +183,8 @@
       "high": 52850.0,
       "low": 51385.0,
       "va_width": 500.0,
-      "va_share": 0.7367,
-      "total": 410516.0,
+      "va_share": 0.737,
+      "total": 411004.0,
       "shape": "P",
       "hvn": [
         52390.0
@@ -208,8 +208,8 @@
       "high": 52559.0,
       "low": 48054.0,
       "va_width": 2540.0,
-      "va_share": 0.7034,
-      "total": 535065.0,
+      "va_share": 0.7042,
+      "total": 534486.0,
       "shape": "B",
       "hvn": [
         49170.0,
@@ -238,18 +238,18 @@
       "row_size": 20.0,
       "poc": 49750.0,
       "vah": 50080.0,
-      "val": 49180.0,
-      "high": 50863.0,
+      "val": 49140.0,
+      "high": 50879.0,
       "low": 48433.0,
-      "va_width": 900.0,
-      "va_share": 0.7071,
-      "total": 341176.0,
+      "va_width": 940.0,
+      "va_share": 0.7137,
+      "total": 346456.0,
       "shape": "D",
       "hvn": [
         49730.0
       ],
       "lvn": [],
-      "high_quality": "excess",
+      "high_quality": "poor",
       "low_quality": "excess",
       "tpo_poc": 49770.0,
       "migration": "inside"

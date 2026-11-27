@@ -4,7 +4,7 @@
   "by": "week",
   "source": "yfinance:^IBEX",
   "kind": "tpo",
-  "generated_utc": "2026-11-27T17:25:55+00:00",
+  "generated_utc": "2026-11-27T19:56:07+00:00",
   "cfd_shift": 0.0,
   "summary": {
     "regime": "balance",
@@ -124,8 +124,8 @@
       "high": 19187.400391,
       "low": 18645.0,
       "va_width": 350.0,
-      "va_share": 0.7156,
-      "total": 545.0,
+      "va_share": 0.7182,
+      "total": 543.0,
       "shape": "B",
       "hvn": [
         18725.0,

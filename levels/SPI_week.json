@@ -4,7 +4,7 @@
   "by": "week",
   "source": "yfinance:^AXJO",
   "kind": "tpo",
-  "generated_utc": "2026-11-27T17:25:59+00:00",
+  "generated_utc": "2026-11-27T19:56:12+00:00",
   "cfd_shift": 0.0,
   "summary": {
     "regime": "balance",
@@ -127,8 +127,8 @@
       "high": 8992.700195,
       "low": 8722.900391,
       "va_width": 177.288,
-      "va_share": 0.7018,
-      "total": 597.0,
+      "va_share": 0.7023,
+      "total": 598.0,
       "shape": "B",
       "hvn": [
         8803.644,

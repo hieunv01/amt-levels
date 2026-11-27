@@ -4,7 +4,7 @@
   "by": "week",
   "source": "yfinance:HSTECH.HK",
   "kind": "tpo",
-  "generated_utc": "2026-11-27T17:26:02+00:00",
+  "generated_utc": "2026-11-27T19:56:17+00:00",
   "cfd_shift": 0.0,
   "summary": {
     "regime": "balance",

@@ -4,7 +4,7 @@
   "by": "month",
   "source": "yfinance:NQ=F",
   "kind": "volume",
-  "generated_utc": "2026-11-27T17:25:48+00:00",
+  "generated_utc": "2026-11-27T19:55:57+00:00",
   "cfd_shift": 0.0,
   "summary": {
     "regime": "balance",
@@ -22,7 +22,7 @@
       "low": 28232.75,
       "va_width": 2225.0,
       "va_share": 0.7145,
-      "total": 14181134.0,
+      "total": 14181523.0,
       "shape": "B",
       "hvn": [
         29787.5,
@@ -49,8 +49,8 @@
       "high": 28969.0,
       "low": 24976.5,
       "va_width": 1975.0,
-      "va_share": 0.7065,
-      "total": 16259972.0,
+      "va_share": 0.7067,
+      "total": 16350513.0,
       "shape": "B",
       "hvn": [
         27162.5,
@@ -65,15 +65,15 @@
       "migration": "overlap_lower"
     },
     "last_date": "2026-11-27",
-    "last_close": 26616.25,
+    "last_close": 26793.0,
     "position": {
       "pos": "below",
-      "d_poc": -3196.25,
-      "d_vah": -4208.75,
-      "d_val": -1983.75,
-      "d_poc_atr": -3.2223,
-      "d_vah_atr": -4.243,
-      "d_val_atr": -1.9999
+      "d_poc": -3019.5,
+      "d_vah": -4032.0,
+      "d_val": -1807.0,
+      "d_poc_atr": -3.0197,
+      "d_vah_atr": -4.0322,
+      "d_val_atr": -1.8071
     },
     "acceptance": {
       "side": "below",
@@ -81,7 +81,7 @@
       "accepted": true
     },
     "failed_auction_today": null,
-    "atr": 991.9286
+    "atr": 999.9464
   },
   "profiles": [
     {
@@ -95,10 +95,10 @@
       "vah": 30925.0,
       "val": 29500.0,
       "high": 30975.5,
-      "low": 28265.75,
+      "low": 28227.75,
       "va_width": 1425.0,
       "va_share": 0.7051,
-      "total": 13426393.0,
+      "total": 13426392.0,
       "shape": "B",
       "hvn": [
         29637.5,
@@ -119,24 +119,23 @@
       "start": "2026-07-01 00:00:00",
       "end": "2026-07-31 00:00:00",
       "row_size": 25.0,
-      "poc": 29937.5,
+      "poc": 29337.5,
       "vah": 30100.0,
-      "val": 28225.0,
+      "val": 28375.0,
       "high": 30553.75,
       "low": 27201.5,
-      "va_width": 1875.0,
-      "va_share": 0.7157,
-      "total": 10743436.0,
-      "shape": "P",
+      "va_width": 1725.0,
+      "va_share": 0.7035,
+      "total": 12004481.0,
+      "shape": "D",
       "hvn": [
         28012.5,
-        29312.5,
-        29912.5
+        29312.5
       ],
       "lvn": [],
       "high_quality": "normal",
       "low_quality": "poor",
-      "tpo_poc": 29112.5,
+      "tpo_poc": 29887.5,
       "migration": "overlap_lower"
     },
     {
@@ -152,8 +151,8 @@
       "high": 30343.0,
       "low": 28313.5,
       "va_width": 675.0,
-      "va_share": 0.7057,
-      "total": 10302673.0,
+      "va_share": 0.7063,
+      "total": 10322150.0,
       "shape": "B",
       "hvn": [
         29562.5,
@@ -180,8 +179,8 @@
       "high": 31094.75,
       "low": 28816.25,
       "va_width": 1775.0,
-      "va_share": 0.7023,
-      "total": 11117785.0,
+      "va_share": 0.7016,
+      "total": 11073798.0,
       "shape": "B",
       "hvn": [
         29187.5,
@@ -193,7 +192,7 @@
       ],
       "high_quality": "normal",
       "low_quality": "normal",
-      "tpo_poc": 29462.5,
+      "tpo_poc": 29437.5,
       "migration": "outside"
     },
     {
@@ -210,7 +209,7 @@
       "low": 28232.75,
       "va_width": 2225.0,
       "va_share": 0.7145,
-      "total": 14181134.0,
+      "total": 14181523.0,
       "shape": "B",
       "hvn": [
         29787.5,
@@ -237,8 +236,8 @@
       "high": 28969.0,
       "low": 24976.5,
       "va_width": 1975.0,
-      "va_share": 0.7065,
-      "total": 16259972.0,
+      "va_share": 0.7067,
+      "total": 16350513.0,
       "shape": "B",
       "hvn": [
         27162.5,

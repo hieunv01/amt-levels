@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-27T17:25:44+00:00",
+  "generated_utc": "2026-11-27T19:55:54+00:00",
   "symbols": {
     "NQ": {
       "symbol": "NQ",
@@ -16,13 +16,13 @@
         "high_quality": "normal",
         "low_quality": "excess",
         "regime": "imbalance_down",
-        "position": "below",
+        "position": "inside",
         "acceptance": {
-          "side": "below",
-          "count": 4,
-          "accepted": true
+          "side": null,
+          "count": 0,
+          "accepted": false
         },
-        "failed_auction_today": null
+        "failed_auction_today": "failed_below"
       },
       "month": {
         "period": "2026-10",
@@ -43,7 +43,7 @@
         "failed_auction_today": null
       },
       "last_date": "2026-11-27",
-      "last_close_futures": 26616.25,
+      "last_close_futures": 26793.0,
       "cfd_shift": 0.0,
       "levels_in": "futures"
     },
@@ -89,7 +89,7 @@
         "failed_auction_today": null
       },
       "last_date": "2026-11-27",
-      "last_close_futures": 7290.75,
+      "last_close_futures": 7316.5,
       "cfd_shift": 0.0,
       "levels_in": "futures"
     },
@@ -135,7 +135,7 @@
         "failed_auction_today": null
       },
       "last_date": "2026-11-27",
-      "last_close_futures": 58695.0,
+      "last_close_futures": 59010.0,
       "cfd_shift": 0.0,
       "levels_in": "futures"
     },
@@ -181,7 +181,7 @@
         "failed_auction_today": null
       },
       "last_date": "2026-11-27",
-      "last_close_futures": 50776.0,
+      "last_close_futures": 50851.0,
       "cfd_shift": 0.0,
       "levels_in": "futures"
     },
@@ -200,10 +200,10 @@
         "high_quality": "poor",
         "low_quality": "excess",
         "regime": "balance",
-        "position": "inside",
+        "position": "above",
         "acceptance": {
-          "side": null,
-          "count": 0,
+          "side": "above",
+          "count": 1,
           "accepted": false
         },
         "failed_auction_today": null
@@ -227,7 +227,7 @@
         "failed_auction_today": null
       },
       "last_date": "2026-11-27",
-      "last_close_futures": 2747.2,
+      "last_close_futures": 2755.5,
       "cfd_shift": 0.0,
       "levels_in": "futures"
     },
@@ -652,9 +652,9 @@
       "kind": "volume",
       "week": {
         "period": "2026-11-16/2026-11-22",
-        "poc": 14.19,
-        "vah": 14.25,
-        "val": 13.98,
+        "poc": 13.96,
+        "vah": 14.19,
+        "val": 13.89,
         "shape": "B",
         "migration": "lower",
         "high_quality": "poor",
@@ -667,14 +667,14 @@
           "accepted": false
         },
         "failed_auction_today": null,
-        "poc_rel": 0.9686,
-        "vah_rel": 0.9727,
-        "val_rel": 0.95427
+        "poc_rel": 0.9529,
+        "vah_rel": 0.9686,
+        "val_rel": 0.94812
       },
       "month": {
         "period": "2026-10",
         "poc": 15.07,
-        "vah": 15.52,
+        "vah": 15.5,
         "val": 14.77,
         "shape": "B",
         "migration": "lower",
@@ -689,7 +689,7 @@
         },
         "failed_auction_today": null,
         "poc_rel": 1.02867,
-        "vah_rel": 1.05939,
+        "vah_rel": 1.05802,
         "val_rel": 1.00819
       },
       "last_date": "2026-11-27",
@@ -815,7 +815,7 @@
       "month": {
         "period": "2026-10",
         "poc": 4083.34,
-        "vah": 4216.32,
+        "vah": 4221.2,
         "val": 3957.68,
         "shape": "B",
         "migration": "lower",
