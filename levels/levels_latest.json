@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-27T04:12:42+00:00",
+  "generated_utc": "2026-11-27T17:25:44+00:00",
   "symbols": {
     "NQ": {
       "symbol": "NQ",
@@ -19,7 +19,7 @@
         "position": "below",
         "acceptance": {
           "side": "below",
-          "count": 3,
+          "count": 4,
           "accepted": true
         },
         "failed_auction_today": null
@@ -37,13 +37,13 @@
         "position": "below",
         "acceptance": {
           "side": "below",
-          "count": 16,
+          "count": 17,
           "accepted": true
         },
         "failed_auction_today": null
       },
-      "last_date": "2026-11-26",
-      "last_close_futures": 26389.75,
+      "last_date": "2026-11-27",
+      "last_close_futures": 26616.25,
       "cfd_shift": 0.0,
       "levels_in": "futures"
     },
@@ -83,13 +83,13 @@
         "position": "below",
         "acceptance": {
           "side": "below",
-          "count": 16,
+          "count": 17,
           "accepted": true
         },
         "failed_auction_today": null
       },
-      "last_date": "2026-11-26",
-      "last_close_futures": 7247.75,
+      "last_date": "2026-11-27",
+      "last_close_futures": 7290.75,
       "cfd_shift": 0.0,
       "levels_in": "futures"
     },
@@ -129,13 +129,13 @@
         "position": "below",
         "acceptance": {
           "side": "below",
-          "count": 11,
+          "count": 12,
           "accepted": true
         },
         "failed_auction_today": null
       },
-      "last_date": "2026-11-26",
-      "last_close_futures": 57865.0,
+      "last_date": "2026-11-27",
+      "last_close_futures": 58695.0,
       "cfd_shift": 0.0,
       "levels_in": "futures"
     },
@@ -175,13 +175,13 @@
         "position": "below",
         "acceptance": {
           "side": "below",
-          "count": 9,
+          "count": 10,
           "accepted": true
         },
         "failed_auction_today": null
       },
-      "last_date": "2026-11-26",
-      "last_close_futures": 50415.0,
+      "last_date": "2026-11-27",
+      "last_close_futures": 50776.0,
       "cfd_shift": 0.0,
       "levels_in": "futures"
     },
@@ -221,13 +221,13 @@
         "position": "below",
         "acceptance": {
           "side": "below",
-          "count": 9,
+          "count": 10,
           "accepted": true
         },
         "failed_auction_today": null
       },
-      "last_date": "2026-11-26",
-      "last_close_futures": 2721.7,
+      "last_date": "2026-11-27",
+      "last_close_futures": 2747.2,
       "cfd_shift": 0.0,
       "levels_in": "futures"
     },
@@ -249,7 +249,7 @@
         "position": "below",
         "acceptance": {
           "side": "below",
-          "count": 4,
+          "count": 5,
           "accepted": true
         },
         "failed_auction_today": null
@@ -272,8 +272,8 @@
         },
         "failed_auction_today": null
       },
-      "last_date": "2026-11-26",
-      "last_close_futures": 25230.7,
+      "last_date": "2026-11-27",
+      "last_close_futures": 25431.35,
       "cfd_shift": 0.0,
       "levels_in": "cash"
     },
@@ -295,7 +295,7 @@
         "position": "below",
         "acceptance": {
           "side": "below",
-          "count": 4,
+          "count": 5,
           "accepted": true
         },
         "failed_auction_today": null
@@ -313,13 +313,13 @@
         "position": "below",
         "acceptance": {
           "side": "below",
-          "count": 5,
+          "count": 6,
           "accepted": true
         },
         "failed_auction_today": null
       },
-      "last_date": "2026-11-26",
-      "last_close_futures": 6020.47,
+      "last_date": "2026-11-27",
+      "last_close_futures": 6086.67,
       "cfd_shift": 0.0,
       "levels_in": "cash"
     },
@@ -344,7 +344,7 @@
           "count": 0,
           "accepted": false
         },
-        "failed_auction_today": "failed_below"
+        "failed_auction_today": null
       },
       "month": {
         "period": "2026-10",
@@ -359,13 +359,13 @@
         "position": "above",
         "acceptance": {
           "side": "above",
-          "count": 19,
+          "count": 20,
           "accepted": true
         },
         "failed_auction_today": null
       },
-      "last_date": "2026-11-26",
-      "last_close_futures": 8119.33,
+      "last_date": "2026-11-27",
+      "last_close_futures": 8159.29,
       "cfd_shift": 0.0,
       "levels_in": "cash"
     },
@@ -376,21 +376,21 @@
       "kind": "tpo",
       "week": {
         "period": "2026-11-16/2026-11-22",
-        "poc": 20002.5,
-        "vah": 20085.0,
+        "poc": 20005.0,
+        "vah": 20090.0,
         "val": 19280.0,
         "shape": "B",
         "migration": "outside",
-        "high_quality": "excess",
-        "low_quality": "normal",
+        "high_quality": "normal",
+        "low_quality": "poor",
         "regime": "balance",
-        "position": "below",
+        "position": "inside",
         "acceptance": {
-          "side": "below",
-          "count": 4,
-          "accepted": true
+          "side": null,
+          "count": 0,
+          "accepted": false
         },
-        "failed_auction_today": null
+        "failed_auction_today": "failed_below"
       },
       "month": {
         "period": "2026-10",
@@ -402,16 +402,16 @@
         "high_quality": "excess",
         "low_quality": "poor",
         "regime": "balance",
-        "position": "inside",
+        "position": "above",
         "acceptance": {
-          "side": null,
-          "count": 0,
+          "side": "above",
+          "count": 1,
           "accepted": false
         },
         "failed_auction_today": null
       },
-      "last_date": "2026-11-26",
-      "last_close_futures": 19074.0,
+      "last_date": "2026-11-27",
+      "last_close_futures": 19380.1,
       "cfd_shift": 0.0,
       "levels_in": "cash"
     },
@@ -433,7 +433,7 @@
         "position": "below",
         "acceptance": {
           "side": "below",
-          "count": 4,
+          "count": 5,
           "accepted": true
         },
         "failed_auction_today": null
@@ -448,16 +448,16 @@
         "high_quality": "excess",
         "low_quality": "normal",
         "regime": "balance",
-        "position": "below",
+        "position": "inside",
         "acceptance": {
-          "side": "below",
-          "count": 3,
-          "accepted": true
+          "side": null,
+          "count": 0,
+          "accepted": false
         },
         "failed_auction_today": null
       },
-      "last_date": "2026-11-26",
-      "last_close_futures": 48382.64,
+      "last_date": "2026-11-27",
+      "last_close_futures": 49228.95,
       "cfd_shift": 0.0,
       "levels_in": "cash"
     },
@@ -482,7 +482,7 @@
           "count": 0,
           "accepted": false
         },
-        "failed_auction_today": "failed_below"
+        "failed_auction_today": null
       },
       "month": {
         "period": "2026-10",
@@ -500,10 +500,10 @@
           "count": 0,
           "accepted": false
         },
-        "failed_auction_today": "failed_below"
+        "failed_auction_today": null
       },
-      "last_date": "2026-11-26",
-      "last_close_futures": 10611.77,
+      "last_date": "2026-11-27",
+      "last_close_futures": 10701.79,
       "cfd_shift": 0.0,
       "levels_in": "cash"
     },
@@ -549,7 +549,7 @@
         "failed_auction_today": null
       },
       "last_date": "2026-11-27",
-      "last_close_futures": 22422.24,
+      "last_close_futures": 22694.77,
       "cfd_shift": 0.0,
       "levels_in": "cash"
     },
@@ -595,7 +595,7 @@
         "failed_auction_today": null
       },
       "last_date": "2026-11-27",
-      "last_close_futures": 8837.4,
+      "last_close_futures": 8833.6,
       "cfd_shift": 0.0,
       "levels_in": "cash"
     },
@@ -641,7 +641,7 @@
         "failed_auction_today": null
       },
       "last_date": "2026-11-27",
-      "last_close_futures": 4875.96,
+      "last_close_futures": 4910.15,
       "cfd_shift": 0.0,
       "levels_in": "cash"
     },
@@ -652,29 +652,29 @@
       "kind": "volume",
       "week": {
         "period": "2026-11-16/2026-11-22",
-        "poc": 13.96,
-        "vah": 14.19,
-        "val": 13.89,
+        "poc": 14.19,
+        "vah": 14.25,
+        "val": 13.98,
         "shape": "B",
         "migration": "lower",
         "high_quality": "poor",
         "low_quality": "normal",
         "regime": "imbalance_down",
-        "position": "inside",
+        "position": "above",
         "acceptance": {
-          "side": null,
-          "count": 0,
+          "side": "above",
+          "count": 1,
           "accepted": false
         },
-        "failed_auction_today": "failed_above",
-        "poc_rel": 0.98449,
-        "vah_rel": 1.00071,
-        "val_rel": 0.97955
+        "failed_auction_today": null,
+        "poc_rel": 0.9686,
+        "vah_rel": 0.9727,
+        "val_rel": 0.95427
       },
       "month": {
         "period": "2026-10",
         "poc": 15.07,
-        "vah": 15.5,
+        "vah": 15.52,
         "val": 14.77,
         "shape": "B",
         "migration": "lower",
@@ -688,12 +688,12 @@
           "accepted": true
         },
         "failed_auction_today": null,
-        "poc_rel": 1.06276,
-        "vah_rel": 1.09309,
-        "val_rel": 1.04161
+        "poc_rel": 1.02867,
+        "vah_rel": 1.05939,
+        "val_rel": 1.00819
       },
       "last_date": "2026-11-27",
-      "last_close_futures": 14.18,
+      "last_close_futures": 14.65,
       "cfd_shift": 0.0,
       "levels_in": "etf"
     },
@@ -704,9 +704,9 @@
       "kind": "tpo",
       "week": {
         "period": "2026-11-16/2026-11-22",
-        "poc": 7836.76,
-        "vah": 8028.5,
-        "val": 7684.1,
+        "poc": 7833.59,
+        "vah": 8027.03,
+        "val": 7683.13,
         "shape": "B",
         "migration": "lower",
         "high_quality": "excess",
@@ -739,7 +739,7 @@
         "failed_auction_today": null
       },
       "last_date": "2026-11-27",
-      "last_close_futures": 7559.1,
+      "last_close_futures": 7644.18,
       "cfd_shift": 0.0,
       "levels_in": "cash"
     },
@@ -750,9 +750,9 @@
       "kind": "tpo",
       "week": {
         "period": "2026-11-16/2026-11-22",
-        "poc": 3731.0,
-        "vah": 3852.0,
-        "val": 3646.0,
+        "poc": 3736.25,
+        "vah": 3852.5,
+        "val": 3645.0,
         "shape": "B",
         "migration": "lower",
         "high_quality": "normal",
@@ -785,7 +785,7 @@
         "failed_auction_today": null
       },
       "last_date": "2026-11-27",
-      "last_close_futures": 3529.88,
+      "last_close_futures": 3637.88,
       "cfd_shift": 0.0,
       "levels_in": "cash"
     },
@@ -804,34 +804,34 @@
         "high_quality": "excess",
         "low_quality": "excess",
         "regime": "balance",
-        "position": "below",
+        "position": "above",
         "acceptance": {
-          "side": "below",
-          "count": 3,
-          "accepted": true
+          "side": "above",
+          "count": 1,
+          "accepted": false
         },
-        "failed_auction_today": null
+        "failed_auction_today": "failed_below"
       },
       "month": {
         "period": "2026-10",
         "poc": 4083.34,
-        "vah": 4221.2,
+        "vah": 4216.32,
         "val": 3957.68,
         "shape": "B",
         "migration": "lower",
         "high_quality": "excess",
         "low_quality": "excess",
         "regime": "imbalance_down",
-        "position": "below",
+        "position": "inside",
         "acceptance": {
-          "side": "below",
-          "count": 3,
-          "accepted": true
+          "side": null,
+          "count": 0,
+          "accepted": false
         },
-        "failed_auction_today": null
+        "failed_auction_today": "failed_below"
       },
       "last_date": "2026-11-27",
-      "last_close_futures": 3909.93,
+      "last_close_futures": 4064.74,
       "cfd_shift": 0.0,
       "levels_in": "cash"
     }

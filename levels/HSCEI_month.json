@@ -4,7 +4,7 @@
   "by": "month",
   "source": "yfinance:^HSCE",
   "kind": "tpo",
-  "generated_utc": "2026-11-27T04:13:01+00:00",
+  "generated_utc": "2026-11-27T17:26:02+00:00",
   "cfd_shift": 0.0,
   "summary": {
     "regime": "balance",
@@ -48,17 +48,15 @@
       "high": 8391.679688,
       "low": 7366.649902,
       "va_width": 801.14,
-      "va_share": 0.7003,
-      "total": 654.0,
+      "va_share": 0.7065,
+      "total": 678.0,
       "shape": "B",
       "hvn": [
         7537.555,
-        7693.875,
         7928.355,
         8289.845
       ],
       "lvn": [
-        7635.255,
         7781.805,
         8123.755
       ],
@@ -67,15 +65,15 @@
       "migration": "outside"
     },
     "last_date": "2026-11-27",
-    "last_close": 7559.1,
+    "last_close": 7644.18,
     "position": {
       "pos": "below",
-      "d_poc": -515.8049,
-      "d_vah": -696.5499,
-      "d_val": -256.8999,
-      "d_poc_atr": -3.7779,
-      "d_vah_atr": -5.1018,
-      "d_val_atr": -1.8816
+      "d_poc": -430.7248,
+      "d_vah": -611.4698,
+      "d_val": -171.8198,
+      "d_poc_atr": -2.9822,
+      "d_vah_atr": -4.2337,
+      "d_val_atr": -1.1896
     },
     "acceptance": {
       "side": "below",
@@ -83,7 +81,7 @@
       "accepted": true
     },
     "failed_auction_today": null,
-    "atr": 136.5314
+    "atr": 144.4299
   },
   "profiles": [
     {
@@ -125,23 +123,23 @@
       "end": "2026-07-31 00:00:00",
       "row_size": 9.77,
       "poc": 8358.235,
-      "vah": 8460.82,
-      "val": 7786.69,
+      "vah": 8480.36,
+      "val": 7767.15,
       "high": 8701.790039,
       "low": 7586.0,
-      "va_width": 674.13,
-      "va_share": 0.7124,
-      "total": 932.0,
+      "va_width": 713.21,
+      "va_share": 0.7084,
+      "total": 823.0,
       "shape": "B",
       "hvn": [
         7781.805,
-        8055.365,
+        8104.215,
         8358.235,
         8602.485
       ],
       "lvn": [
         7918.585,
-        8172.605,
+        8192.145,
         8475.475
       ],
       "high_quality": "excess",
@@ -242,17 +240,15 @@
       "high": 8391.679688,
       "low": 7366.649902,
       "va_width": 801.14,
-      "va_share": 0.7003,
-      "total": 654.0,
+      "va_share": 0.7065,
+      "total": 678.0,
       "shape": "B",
       "hvn": [
         7537.555,
-        7693.875,
         7928.355,
         8289.845
       ],
       "lvn": [
-        7635.255,
         7781.805,
         8123.755
       ],

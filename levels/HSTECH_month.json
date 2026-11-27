@@ -4,7 +4,7 @@
   "by": "month",
   "source": "yfinance:HSTECH.HK",
   "kind": "tpo",
-  "generated_utc": "2026-11-27T04:13:02+00:00",
+  "generated_utc": "2026-11-27T17:26:03+00:00",
   "cfd_shift": 0.0,
   "summary": {
     "regime": "balance",
@@ -44,21 +44,23 @@
       "end": "2026-11-27 00:00:00",
       "row_size": 4.885,
       "poc": 3470.7925,
-      "vah": 3961.735,
-      "val": 3365.765,
+      "vah": 3951.965,
+      "val": 3390.19,
       "high": 4168.419922,
       "low": 3367.149902,
-      "va_width": 595.97,
-      "va_share": 0.7014,
-      "total": 1018.0,
+      "va_width": 561.775,
+      "va_share": 0.7005,
+      "total": 1055.0,
       "shape": "B",
       "hvn": [
         3490.3325,
+        3641.7675,
         3851.8225,
         4081.4175
       ],
       "lvn": [
-        3607.5725,
+        3578.2625,
+        3685.7325,
         3998.3725
       ],
       "high_quality": "poor",
@@ -66,15 +68,15 @@
       "migration": "overlap_lower"
     },
     "last_date": "2026-11-27",
-    "last_close": 3529.88,
+    "last_close": 3637.88,
     "position": {
       "pos": "below",
-      "d_poc": -639.4676,
-      "d_vah": -724.9551,
-      "d_val": -324.3851,
-      "d_poc_atr": -5.6089,
-      "d_vah_atr": -6.3587,
-      "d_val_atr": -2.8452
+      "d_poc": -531.4676,
+      "d_vah": -616.9551,
+      "d_val": -216.3851,
+      "d_poc_atr": -4.3474,
+      "d_vah_atr": -5.0466,
+      "d_val_atr": -1.77
     },
     "acceptance": {
       "side": "below",
@@ -82,7 +84,7 @@
       "accepted": true
     },
     "failed_auction_today": null,
-    "atr": 114.01
+    "atr": 122.2507
   },
   "profiles": [
     {
@@ -122,20 +124,21 @@
       "end": "2026-07-31 00:00:00",
       "row_size": 4.885,
       "poc": 4706.6975,
-      "vah": 4855.69,
-      "val": 4626.095,
+      "vah": 4865.46,
+      "val": 4616.325,
       "high": 4914.609863,
       "low": 4434.25,
-      "va_width": 229.595,
-      "va_share": 0.7058,
-      "total": 1533.0,
+      "va_width": 249.135,
+      "va_share": 0.7065,
+      "total": 1346.0,
       "shape": "B",
       "hvn": [
         4530.8375,
-        4706.6975
+        4716.4675,
+        4819.0525
       ],
       "lvn": [
-        4574.8025
+        4579.6875
       ],
       "high_quality": "normal",
       "low_quality": "normal",
@@ -235,21 +238,23 @@
       "end": "2026-11-27 00:00:00",
       "row_size": 4.885,
       "poc": 3470.7925,
-      "vah": 3961.735,
-      "val": 3365.765,
+      "vah": 3951.965,
+      "val": 3390.19,
       "high": 4168.419922,
       "low": 3367.149902,
-      "va_width": 595.97,
-      "va_share": 0.7014,
-      "total": 1018.0,
+      "va_width": 561.775,
+      "va_share": 0.7005,
+      "total": 1055.0,
       "shape": "B",
       "hvn": [
         3490.3325,
+        3641.7675,
         3851.8225,
         4081.4175
       ],
       "lvn": [
-        3607.5725,
+        3578.2625,
+        3685.7325,
         3998.3725
       ],
       "high_quality": "poor",

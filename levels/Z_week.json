@@ -4,7 +4,7 @@
   "by": "week",
   "source": "yfinance:^FTSE",
   "kind": "tpo",
-  "generated_utc": "2026-11-27T04:12:56+00:00",
+  "generated_utc": "2026-11-27T17:25:57+00:00",
   "cfd_shift": 0.0,
   "summary": {
     "regime": "balance",
@@ -46,48 +46,48 @@
       "kind": "tpo",
       "complete": false,
       "start": "2026-11-23 00:00:00",
-      "end": "2026-11-26 00:00:00",
+      "end": "2026-11-27 00:00:00",
       "row_size": 2.5,
       "poc": 10468.75,
-      "vah": 10545.0,
-      "val": 10407.5,
-      "high": 10636.490234,
+      "vah": 10575.0,
+      "val": 10367.5,
+      "high": 10714.099609,
       "low": 10341.049805,
-      "va_width": 137.5,
-      "va_share": 0.7045,
-      "total": 775.0,
+      "va_width": 207.5,
+      "va_share": 0.7135,
+      "total": 911.0,
       "shape": "B",
       "hvn": [
-        10403.75,
-        10466.25,
-        10583.75
+        10463.75,
+        10581.25,
+        10683.75
       ],
       "lvn": [
-        10418.75,
-        10553.75
+        10551.25,
+        10646.25
       ],
-      "high_quality": "normal",
+      "high_quality": "excess",
       "low_quality": "excess",
       "migration": "overlap_lower"
     },
-    "last_date": "2026-11-26",
-    "last_close": 10611.77,
+    "last_date": "2026-11-27",
+    "last_close": 10701.79,
     "position": {
       "pos": "inside",
-      "d_poc": -326.9805,
-      "d_vah": -353.2305,
-      "d_val": 119.2695,
-      "d_poc_atr": -2.6998,
-      "d_vah_atr": -2.9165,
-      "d_val_atr": 0.9848
+      "d_poc": -236.96,
+      "d_vah": -263.21,
+      "d_val": 209.29,
+      "d_poc_atr": -1.9867,
+      "d_vah_atr": -2.2068,
+      "d_val_atr": 1.7547
     },
     "acceptance": {
       "side": null,
       "count": 0,
       "accepted": false
     },
-    "failed_auction_today": "failed_below",
-    "atr": 121.115
+    "failed_auction_today": null,
+    "atr": 119.2727
   },
   "profiles": [
     {
@@ -238,27 +238,27 @@
       "kind": "tpo",
       "complete": false,
       "start": "2026-11-23 00:00:00",
-      "end": "2026-11-26 00:00:00",
+      "end": "2026-11-27 00:00:00",
       "row_size": 2.5,
       "poc": 10468.75,
-      "vah": 10545.0,
-      "val": 10407.5,
-      "high": 10636.490234,
+      "vah": 10575.0,
+      "val": 10367.5,
+      "high": 10714.099609,
       "low": 10341.049805,
-      "va_width": 137.5,
-      "va_share": 0.7045,
-      "total": 775.0,
+      "va_width": 207.5,
+      "va_share": 0.7135,
+      "total": 911.0,
       "shape": "B",
       "hvn": [
-        10403.75,
-        10466.25,
-        10583.75
+        10463.75,
+        10581.25,
+        10683.75
       ],
       "lvn": [
-        10418.75,
-        10553.75
+        10551.25,
+        10646.25
       ],
-      "high_quality": "normal",
+      "high_quality": "excess",
       "low_quality": "excess",
       "migration": "overlap_lower"
     }

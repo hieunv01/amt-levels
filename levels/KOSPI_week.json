@@ -4,7 +4,7 @@
   "by": "week",
   "source": "yfinance:^KS11",
   "kind": "volume",
-  "generated_utc": "2026-11-27T04:12:59+00:00",
+  "generated_utc": "2026-11-27T17:26:00+00:00",
   "cfd_shift": 0.0,
   "summary": {
     "regime": "imbalance_down",
@@ -41,20 +41,22 @@
       "end": "2026-11-27 00:00:00",
       "row_size": 4.885,
       "poc": 4721.3525,
-      "vah": 4821.495,
-      "val": 4660.29,
+      "vah": 4880.115,
+      "val": 4650.52,
       "high": 5065.740234,
       "low": 4586.799805,
-      "va_width": 161.205,
-      "va_share": 0.7006,
-      "total": 731072.0,
+      "va_width": 229.595,
+      "va_share": 0.7173,
+      "total": 781423.0,
       "shape": "B",
       "hvn": [
         4731.1225,
+        4892.3275,
         5043.7625
       ],
       "lvn": [
-        4892.3275
+        4853.2475,
+        4936.2925
       ],
       "high_quality": "normal",
       "low_quality": "excess",
@@ -62,15 +64,15 @@
       "migration": "lower"
     },
     "last_date": "2026-11-27",
-    "last_close": 4875.96,
+    "last_close": 4910.15,
     "position": {
       "pos": "below",
-      "d_poc": -133.6075,
-      "d_vah": -282.6,
-      "d_val": -82.315,
-      "d_poc_atr": -0.6052,
-      "d_vah_atr": -1.2802,
-      "d_val_atr": -0.3729
+      "d_poc": -99.4176,
+      "d_vah": -248.4101,
+      "d_val": -48.1251,
+      "d_poc_atr": -0.4441,
+      "d_vah_atr": -1.1098,
+      "d_val_atr": -0.215
     },
     "acceptance": {
       "side": "below",
@@ -78,7 +80,7 @@
       "accepted": true
     },
     "failed_auction_today": null,
-    "atr": 220.7501
+    "atr": 223.8409
   },
   "profiles": [
     {
@@ -228,20 +230,22 @@
       "end": "2026-11-27 00:00:00",
       "row_size": 4.885,
       "poc": 4721.3525,
-      "vah": 4821.495,
-      "val": 4660.29,
+      "vah": 4880.115,
+      "val": 4650.52,
       "high": 5065.740234,
       "low": 4586.799805,
-      "va_width": 161.205,
-      "va_share": 0.7006,
-      "total": 731072.0,
+      "va_width": 229.595,
+      "va_share": 0.7173,
+      "total": 781423.0,
       "shape": "B",
       "hvn": [
         4731.1225,
+        4892.3275,
         5043.7625
       ],
       "lvn": [
-        4892.3275
+        4853.2475,
+        4936.2925
       ],
       "high_quality": "normal",
       "low_quality": "excess",
